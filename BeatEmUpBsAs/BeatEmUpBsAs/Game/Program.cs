@@ -26,9 +26,9 @@ namespace Game
         private static void Initialization()
         {
             _time.Initialize();
-            Engine.Draw("Textures/Current_Avenue_1.png", 0, 0, 1, 1, 0, 0, 0);
+            Engine.Draw("Textures/Backgrounds/Current_Avenue_1.png", 960, 540, 1, 1, 0, 0, 0);
     
-            //characters.Add( new Character("Textures/Current_Avenue_1.png", new Vector2(960, 540), new Vector2(1, 1), 0, 0));
+            //characters.Add( new Character("Textures/Backgrounds/Current_Avenue_1.png", new Vector2(960, 540), new Vector2(1, 1), 0, 0));
             characters.Add( new Character("Textures/BG/IdleAnim/idle1.png", new Vector2(400, 850), new Vector2(4, 4), 0, 200));
 
         }

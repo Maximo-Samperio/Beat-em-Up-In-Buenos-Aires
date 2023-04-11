@@ -46,10 +46,31 @@
     <Compile Include="Vector2.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Textures\BackgroundSpace.png">
+    <Content Include="Engine.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Engine.dll">
+    <Content Include="Textures\Backgrounds\Current_Avenue_1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\DiveKickAnim\dive_kick1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\DiveKickAnim\dive_kick2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\DiveKickAnim\dive_kick3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\DiveKickAnim\dive_kick4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\DiveKickAnim\dive_kick5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\HurtAnim\hurt1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\HurtAnim\hurt2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Textures\BG\IdleAnim\idle1.png">
@@ -64,6 +85,63 @@
     <Content Include="Textures\BG\IdleAnim\idle4.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Textures\BG\JabAnim\jab1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\JabAnim\jab2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\JabAnim\jab3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\JumpAnim\jump1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\JumpAnim\jump2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\JumpAnim\jump3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\JumpAnim\jump4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\JumpKickAnim\jump_kick1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\JumpKickAnim\jump_kick2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\JumpKickAnim\jump_kick3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\KickAnim\kick1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\KickAnim\kick2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\KickAnim\kick3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\KickAnim\kick4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\KickAnim\kick5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\PunchAnim\punch1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\PunchAnim\punch2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\PunchAnim\punch3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\BG\Shadow\shadow.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Textures\BG\WalkAnim\walk1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -76,64 +154,57 @@
     <Content Include="Textures\BG\WalkAnim\walk4.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\Current_Avenue_1.png">
+    <Content Include="Textures\Punk\HurtAnim\hurt1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\ship.png">
+    <Content Include="Textures\Punk\HurtAnim\hurt2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\Textures\BG\DiveKickAnim\dive_kick1.png" />
-    <Content Include="Textures\Textures\BG\DiveKickAnim\dive_kick2.png" />
-    <Content Include="Textures\Textures\BG\DiveKickAnim\dive_kick3.png" />
-    <Content Include="Textures\Textures\BG\DiveKickAnim\dive_kick4.png" />
-    <Content Include="Textures\Textures\BG\DiveKickAnim\dive_kick5.png" />
-    <Content Include="Textures\Textures\BG\HurtAnim\hurt1.png" />
-    <Content Include="Textures\Textures\BG\HurtAnim\hurt2.png" />
-    <Content Include="Textures\Textures\BG\IdleAnim\idle1.png" />
-    <Content Include="Textures\Textures\BG\IdleAnim\idle2.png" />
-    <Content Include="Textures\Textures\BG\IdleAnim\idle3.png" />
-    <Content Include="Textures\Textures\BG\IdleAnim\idle4.png" />
-    <Content Include="Textures\Textures\BG\JabAnim\jab1.png" />
-    <Content Include="Textures\Textures\BG\JabAnim\jab2.png" />
-    <Content Include="Textures\Textures\BG\JabAnim\jab3.png" />
-    <Content Include="Textures\Textures\BG\JumpAnim\jump1.png" />
-    <Content Include="Textures\Textures\BG\JumpAnim\jump2.png" />
-    <Content Include="Textures\Textures\BG\JumpAnim\jump3.png" />
-    <Content Include="Textures\Textures\BG\JumpAnim\jump4.png" />
-    <Content Include="Textures\Textures\BG\JumpKickAnim\jump_kick1.png" />
-    <Content Include="Textures\Textures\BG\JumpKickAnim\jump_kick2.png" />
-    <Content Include="Textures\Textures\BG\JumpKickAnim\jump_kick3.png" />
-    <Content Include="Textures\Textures\BG\KickAnim\kick1.png" />
-    <Content Include="Textures\Textures\BG\KickAnim\kick2.png" />
-    <Content Include="Textures\Textures\BG\KickAnim\kick3.png" />
-    <Content Include="Textures\Textures\BG\KickAnim\kick4.png" />
-    <Content Include="Textures\Textures\BG\KickAnim\kick5.png" />
-    <Content Include="Textures\Textures\BG\PunchAnim\punch1.png" />
-    <Content Include="Textures\Textures\BG\PunchAnim\punch2.png" />
-    <Content Include="Textures\Textures\BG\PunchAnim\punch3.png" />
-    <Content Include="Textures\Textures\BG\Shadow\shadow.png" />
-    <Content Include="Textures\Textures\BG\WalkAnim\walk1.png" />
-    <Content Include="Textures\Textures\BG\WalkAnim\walk2.png" />
-    <Content Include="Textures\Textures\BG\WalkAnim\walk3.png" />
-    <Content Include="Textures\Textures\BG\WalkAnim\walk4.png" />
-    <Content Include="Textures\Textures\Current_Avenue_1.png" />
-    <Content Include="Textures\Textures\Punk\HurtAnim\hurt1.png" />
-    <Content Include="Textures\Textures\Punk\HurtAnim\hurt2.png" />
-    <Content Include="Textures\Textures\Punk\HurtAnim\hurt3.png" />
-    <Content Include="Textures\Textures\Punk\HurtAnim\hurt4.png" />
-    <Content Include="Textures\Textures\Punk\IdleAnim\idle1.png" />
-    <Content Include="Textures\Textures\Punk\IdleAnim\idle2.png" />
-    <Content Include="Textures\Textures\Punk\IdleAnim\idle3.png" />
-    <Content Include="Textures\Textures\Punk\IdleAnim\idle4.png" />
-    <Content Include="Textures\Textures\Punk\Shadow\shadow.png" />
-    <Content Include="Textures\Textures\Punk\WalkAnim\walk1.png" />
-    <Content Include="Textures\Textures\Punk\WalkAnim\walk2.png" />
-    <Content Include="Textures\Textures\Punk\WalkAnim\walk3.png" />
-    <Content Include="Textures\Textures\Punk\WalkAnim\walk4.png" />
+    <Content Include="Textures\Punk\HurtAnim\hurt3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Punk\HurtAnim\hurt4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Punk\IdleAnim\idle1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Punk\IdleAnim\idle2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Punk\IdleAnim\idle3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Punk\IdleAnim\idle4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Punk\PunchAnim\punch1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Punk\PunchAnim\punch2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Punk\PunchAnim\punch3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Punk\Shadow\shadow.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Punk\WalkAnim\walk1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Punk\WalkAnim\walk2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Punk\WalkAnim\walk3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Punk\WalkAnim\walk4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
-    <Folder Include="Textures\Textures\Punk\PunchAnim\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
