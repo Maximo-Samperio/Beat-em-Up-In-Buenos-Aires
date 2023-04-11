@@ -48,12 +48,7 @@ namespace Game
             
             if (_transform.Position.X <= 0 + _renderer.Texture.Width && _isMovingLeft == true)
             {
-                _movementSpeed = 0;
-                /*if (_isMovingUp == true || _isMovingRight == true || _isMovingDown == true)
-                {
-                    _movementSpeed = 200;
-
-                }*/
+                //_transform.Position.X = 0;       
             }
         }
 
