@@ -8,11 +8,11 @@ namespace Game
 {
     public class Character
     {
-        /* Character Properties */
-        private Transform _transform;
-        private Renderer _renderer;
+        // Character Properties
+        private Transform _transform;       // Transform of the character
+        private Renderer _renderer;         // Render of the character
 
-        /* Speed Valudwes */
+        // Movement related variables
         private float _movementSpeed;
         private float _rotationSpeed;
         private bool _isMovingUp;
@@ -22,13 +22,13 @@ namespace Game
 
         #region PUBLIC_METODS
 
+        // Character class, allows me toeasily create characters
         public Character(string texturePath, Vector2 position, Vector2 scale, float angle, float movementSpeed)
         {
-            _renderer = new Renderer(texturePath, scale);
-            _transform = new Transform(position, scale, angle);
-
-            _movementSpeed = movementSpeed;
-            _rotationSpeed = 100f;
+            _renderer = new Renderer(texturePath, scale);               // Relates render to render
+            _transform = new Transform(position, scale, angle);         // Transform to transform              
+            _movementSpeed = movementSpeed;                             // Movement speed to movement speed
+            _rotationSpeed = 100f;                                      // Assigns a rotation speed
         }
 
         public void Initialize() { }
@@ -37,21 +37,21 @@ namespace Game
         {
             InputReading();
 
-            //_transform.Translate(new Vector2(1, 0), _movementSpeed);
-            //_transform.Rotate(0, _rotationSpeed);
-
+            // Checks if the character is colliding with the right margin so that it does not leave the screen
             if (_transform.Position.X >= 1920 + _renderer.Texture.Width)
             {
                 _transform.SetPositon(new Vector2(-_renderer.Texture.Width, _transform.Position.Y)); //Replace in a future with screen background change
 
             }
-            
-            if (_transform.Position.X <= 0 + _renderer.Texture.Width && _isMovingLeft == true)
+
+            // Checks if the character is colliding with the left margin so that it does not leave the screen
+            if (_transform.Position.X < 0 + _renderer.Texture.Width)
             {
-                //_transform.Position.X = 0;       
+                _transform.SetPositon(new Vector2(0 + _renderer.Texture.Width, _transform.Position.Y));       
             }
         }
 
+        // Renders the entire thing
         public void Render() => _renderer.Render(_transform);
 
         #endregion
