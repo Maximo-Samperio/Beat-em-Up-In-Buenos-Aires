@@ -1,0 +1,63 @@
+D:\Download\Firefox\Proyecto Base 2\Game\bin\Debug\Engine.dll
+D:\Download\Firefox\Proyecto Base 2\Game\bin\Debug\ship.png
+D:\Download\Firefox\Proyecto Base 2\Game\bin\Debug\Game.exe
+D:\Download\Firefox\Proyecto Base 2\Game\bin\Debug\Game.pdb
+D:\Download\Firefox\Proyecto Base 2\Game\obj\Debug\Game.csprojAssemblyReference.cache
+D:\Download\Firefox\Proyecto Base 2\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+D:\Download\Firefox\Proyecto Base 2\Game\obj\Debug\Game.exe
+D:\Download\Firefox\Proyecto Base 2\Game\obj\Debug\Game.pdb
+D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos\Proyecto Base 2\Game\bin\Debug\Engine.dll
+D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos\Proyecto Base 2\Game\bin\Debug\Game.exe
+D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos\Proyecto Base 2\Game\bin\Debug\Game.pdb
+D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos\Proyecto Base 2\Game\obj\Debug\Game.csprojAssemblyReference.cache
+D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos\Proyecto Base 2\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos\Proyecto Base 2\Game\obj\Debug\Game.exe
+D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos\Proyecto Base 2\Game\obj\Debug\Game.pdb
+D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos\Proyecto Base 2\Game\bin\Debug\Textures\BackgroundSpace.png
+D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos\Proyecto Base 2\Game\bin\Debug\Textures\ship.png
+D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos por clase\Proyecto Base 2\Game\bin\Debug\Textures\BackgroundSpace.png
+D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos por clase\Proyecto Base 2\Game\bin\Debug\Engine.dll
+D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos por clase\Proyecto Base 2\Game\bin\Debug\Textures\ship.png
+D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos por clase\Proyecto Base 2\Game\bin\Debug\Game.exe
+D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos por clase\Proyecto Base 2\Game\bin\Debug\Game.pdb
+D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos por clase\Proyecto Base 2\Game\obj\Debug\Game.csprojAssemblyReference.cache
+D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos por clase\Proyecto Base 2\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos por clase\Proyecto Base 2\Game\obj\Debug\Game.exe
+D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos por clase\Proyecto Base 2\Game\obj\Debug\Game.pdb
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\Project\Proyecto - Clase 4\Proyecto Base 2\Game\bin\Debug\Textures\BackgroundSpace.png
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\Project\Proyecto - Clase 4\Proyecto Base 2\Game\bin\Debug\Engine.dll
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\Project\Proyecto - Clase 4\Proyecto Base 2\Game\bin\Debug\Textures\ship.png
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\Project\Proyecto - Clase 4\Proyecto Base 2\Game\bin\Debug\Game.exe.config
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\Project\Proyecto - Clase 4\Proyecto Base 2\Game\bin\Debug\Game.exe
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\Project\Proyecto - Clase 4\Proyecto Base 2\Game\bin\Debug\Game.pdb
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\Project\Proyecto - Clase 4\Proyecto Base 2\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\Project\Proyecto - Clase 4\Proyecto Base 2\Game\obj\Debug\Game.csproj.SuggestedBindingRedirects.cache
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\Project\Proyecto - Clase 4\Proyecto Base 2\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\Project\Proyecto - Clase 4\Proyecto Base 2\Game\obj\Debug\Game.exe
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\Project\Proyecto - Clase 4\Proyecto Base 2\Game\obj\Debug\Game.pdb
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BackgroundSpace.png
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Engine.dll
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\ship.png
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Game.exe.config
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Game.exe
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Game.pdb
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.csproj.SuggestedBindingRedirects.cache
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.exe
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.pdb
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG_Idle1.png
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Current_Avenue_1.png
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BackgroundSpace.png
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Engine.dll
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG_Idle1.png
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Current_Avenue_1.png
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\ship.png
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Game.exe.config
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Game.exe
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Game.pdb
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.csproj.SuggestedBindingRedirects.cache
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.exe
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.pdb
