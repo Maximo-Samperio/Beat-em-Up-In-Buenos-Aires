@@ -63,7 +63,6 @@ C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuat
 C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.pdb
 C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BackgroundSpace.png
 C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Engine.dll
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG_Idle1.png
 C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Current_Avenue_1.png
 C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\ship.png
 C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Game.exe.config
@@ -74,3 +73,7 @@ C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In 
 C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
 C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.exe
 C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.pdb
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\IdleAnim\idle1.png
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\IdleAnim\idle2.png
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\IdleAnim\idle3.png
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\IdleAnim\idle4.png
