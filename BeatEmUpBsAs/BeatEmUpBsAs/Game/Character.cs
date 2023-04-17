@@ -20,22 +20,44 @@ namespace Game
         private bool _isMovingRight;
         private bool _isMovingLeft;
 
+        private Animation idleAnimation;
+        private Animation currentAnimation;
+
         #region PUBLIC_METODS
 
         // Character class, allows me toeasily create characters
         public Character(string texturePath, Vector2 position, Vector2 scale, float angle, float movementSpeed)
         {
+            CreateAnimations();
+            currentAnimation = idleAnimation;
+            _renderer = new Renderer(idleAnimation, scale);
+
             _renderer = new Renderer(texturePath, scale);               // Relates render to render
             _transform = new Transform(position, scale, angle);         // Transform to transform              
             _movementSpeed = movementSpeed;                             // Movement speed to movement speed
             _rotationSpeed = 100f;                                      // Assigns a rotation speed
-        }
 
+            
+
+        }
+        private void CreateAnimations()
+        {
+            List<Texture> idleTextures = new List<Texture>();
+            for (int i = 0; i < 4; i++)
+            {
+                Texture frame = Engine.GetTexture($"Textures/BG/IdleAnim/{i}.png");
+                idleTextures.Add(frame);
+            }
+            idleAnimation = new Animation("Idle", idleTextures, 0.1f, true);
+
+        }
         public void Initialize() { }
 
         public void Update() 
         {
             InputReading();
+            currentAnimation.Update();
+
 
             // Checks if the character is colliding with the right margin so that it does not leave the screen
             if (_transform.Position.X >= 1920 + _renderer.Texture.Width)
@@ -48,6 +70,18 @@ namespace Game
             if (_transform.Position.X < 0 + _renderer.Texture.Width)
             {
                 _transform.SetPositon(new Vector2(0 + _renderer.Texture.Width, _transform.Position.Y));       
+            }
+
+            // Prevents the character from moving up more than desired
+            if (_transform.Position.Y < 800)
+            {
+                _transform.SetPositon(new Vector2(_transform.Position.X, 800));
+            }
+
+            // Checks if the character is colliding with the bottom margin so that it does not leave the screen
+            if (_transform.Position.Y > 1080 + _renderer.Texture.Height)
+            {
+                _transform.SetPositon(new Vector2(_transform.Position.X, 1080 + _renderer.Texture.Height));
             }
         }
 
