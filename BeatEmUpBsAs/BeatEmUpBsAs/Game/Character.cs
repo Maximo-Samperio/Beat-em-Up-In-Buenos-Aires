@@ -15,10 +15,10 @@ namespace Game
         // Movement related variables
         private float _movementSpeed;
         private float _rotationSpeed;
-        private bool _isMovingUp;
-        private bool _isMovingDown;
-        private bool _isMovingRight;
-        private bool _isMovingLeft;
+        //private bool _isMovingUp;
+        //private bool _isMovingDown;
+        //private bool _isMovingRight;
+        //private bool _isMovingLeft;
 
         private Animation idleAnimation;
         private Animation currentAnimation;
@@ -30,7 +30,7 @@ namespace Game
         {
             CreateAnimations();
             currentAnimation = idleAnimation;
-            _renderer = new Renderer(idleAnimation, scale);
+            //_renderer = new Renderer(idleAnimation, scale);
 
             _renderer = new Renderer(texturePath, scale);               // Relates render to render
             _transform = new Transform(position, scale, angle);         // Transform to transform              
@@ -40,15 +40,16 @@ namespace Game
             
 
         }
-        private void CreateAnimations()
+        private void CreateAnimations()                                 // Creates animations
         {
-            List<Texture> idleTextures = new List<Texture>();
-            for (int i = 0; i < 4; i++)
+            List<Texture> idleTextures = new List<Texture>();           // Creates a new list with all the sprites
+            for (int i = 0; i < 4; i++)                                 // If the number of anims. that passed is < 4
             {
-                Texture frame = Engine.GetTexture($"Textures/BG/IdleAnim/{i}.png");
-                idleTextures.Add(frame);
+                Texture frame = Engine.GetTexture($"Textures/BG/IdleAnim/{i}.png");     // Adress of the textures
+                idleTextures.Add(frame);                                // Then move on to the next one
             }
-            idleAnimation = new Animation("Idle", idleTextures, 0.1f, true);
+
+            idleAnimation = new Animation("Idle", idleTextures, 0.1f, true);            
 
         }
         public void Initialize() { }
@@ -79,7 +80,7 @@ namespace Game
             }
 
             // Checks if the character is colliding with the bottom margin so that it does not leave the screen
-            if (_transform.Position.Y > 1080 + _renderer.Texture.Height)
+            if (_transform.Position.Y + _renderer.Texture.Height > 1080 )
             {
                 _transform.SetPositon(new Vector2(_transform.Position.X, 1080 + _renderer.Texture.Height));
             }
@@ -94,37 +95,48 @@ namespace Game
 
         private void InputReading()
         {
+            // Checks for the W key
             if (Engine.GetKey(Keys.W))
             {
                 MoveUp();
-                _isMovingUp = true;
+                //_isMovingUp = true;
             }
 
+            // Checks for the S key
             if (Engine.GetKey(Keys.S))
             {
                 MoveDown();
-                _isMovingDown = true;
+                //_isMovingDown = true;
 
             }
 
+            // Checks for the A key
             if (Engine.GetKey(Keys.A))
             {
                 MoveLeft();
-                _isMovingLeft = true;
+                //_isMovingLeft = true;
 
             }
 
+            // Checks for the D key
             if (Engine.GetKey(Keys.D))
             {
                 MoveRight();
-                _isMovingRight = true;
+                //_isMovingRight = true;
 
             }
         }
 
+        // Moves the character up
         private void MoveUp() => _transform.Translate(new Vector2(0, -1), _movementSpeed);
+
+        // Moves the character down
         private void MoveDown() => _transform.Translate(new Vector2(0, 1), _movementSpeed);
+
+        // Moves the character to the left
         private void MoveLeft() => _transform.Translate(new Vector2(-1, 0), _movementSpeed);
+
+        // Moves the character to the right
         private void MoveRight() => _transform.Translate(new Vector2(1, 0), _movementSpeed);
 
         #endregion

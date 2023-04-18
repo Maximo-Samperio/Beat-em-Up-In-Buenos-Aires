@@ -10,6 +10,7 @@ namespace Game
         private static Time _time;
 
         private static List<Character> characters = new List<Character>();
+        private static List<Enemy> enemies = new List<Enemy>();
 
         private static Character _player;
 
@@ -33,6 +34,7 @@ namespace Game
             _time.Initialize();
     
             characters.Add( new Character("Textures/BG/IdleAnim/idle1.png", new Vector2(400, 850), new Vector2(4, 4), 0, 200));
+            enemies.Add(new Enemy("Textures/Punk/IdleAnim/idle1.png", new Vector2(400, 900), new Vector2(4, 4), 0, 200));
 
         }
 
