@@ -12,15 +12,18 @@ namespace Game
         public Vector2 Offset => _offset;
 
         private Texture _texture;
+        private Animation _anim;
         private Vector2 _offset;
 
-        public Renderer(string texturePath, Vector2 scale)
+        public Renderer(Animation anim, Vector2 scale)
         {
-            _texture = Engine.GetTexture(texturePath);
+            //_texture = Engine.GetTexture(texturePath);
 
+            _anim = anim;
+            _texture = _anim.CurrentFrame;
             _offset = new Vector2(
-                (scale.X * _texture.Width) / 2,
-                (scale.Y * _texture.Height) / 2);
+            (scale.X * _texture.Width) / 2,
+            (scale.Y * _texture.Height) / 2);
         }
 
         public void Render(Transform transform)

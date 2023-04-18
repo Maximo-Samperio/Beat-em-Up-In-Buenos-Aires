@@ -39,6 +39,7 @@
   <ItemGroup>
     <Compile Include="Animation.cs" />
     <Compile Include="Character.cs" />
+    <Compile Include="GameManager.cs" />
     <Compile Include="Enemy.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="Program.cs" />
@@ -75,16 +76,16 @@
     <Content Include="Textures\BG\HurtAnim\hurt2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\BG\IdleAnim\idle1.png">
+    <Content Include="Textures\BG\IdleAnim\1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\BG\IdleAnim\idle2.png">
+    <Content Include="Textures\BG\IdleAnim\2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\BG\IdleAnim\idle3.png">
+    <Content Include="Textures\BG\IdleAnim\3.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\BG\IdleAnim\idle4.png">
+    <Content Include="Textures\BG\IdleAnim\4.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Textures\BG\JabAnim\jab1.png">

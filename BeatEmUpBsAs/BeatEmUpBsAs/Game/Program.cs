@@ -13,8 +13,10 @@ namespace Game
         private static List<Enemy> enemies = new List<Enemy>();
 
         private static Character _player;
+        private static Enemy _enemy;
 
         public static Character Player => _player;
+        //public static Enemy Enemy => _enemy;
 
 
         static void Main(string[] args)
@@ -41,18 +43,22 @@ namespace Game
         private static void Update()
         {
             foreach (Character character in characters) character.Update();
+            foreach (Enemy enemy in enemies) enemy.Update();
+
 
             _time.Update();
         }
 
-        private static void Render()
+        public static void Render()
         {
             Engine.Clear();
 
             Engine.Draw("Textures/Backgrounds/Current_Avenue_1.png", 0, 0, 1, 1, 0, 0, 0);
 
             foreach (Character character in characters) character.Render();
-            
+            foreach (Enemy enemy in enemies) enemy.Render();
+
+
             Engine.Show();
         }
     }

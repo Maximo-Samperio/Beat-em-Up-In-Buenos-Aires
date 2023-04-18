@@ -30,9 +30,9 @@ namespace Game
         {
             CreateAnimations();
             currentAnimation = idleAnimation;
-            //_renderer = new Renderer(idleAnimation, scale);
+            _renderer = new Renderer(idleAnimation, scale);
 
-            _renderer = new Renderer(texturePath, scale);               // Relates render to render
+            //_renderer = new Renderer(texturePath, scale);               // Relates render to render
             _transform = new Transform(position, scale, angle);         // Transform to transform              
             _movementSpeed = movementSpeed;                             // Movement speed to movement speed
             _rotationSpeed = 100f;                                      // Assigns a rotation speed

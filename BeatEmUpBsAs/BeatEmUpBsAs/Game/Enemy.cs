@@ -58,14 +58,13 @@ namespace Game
         public void Update()
         {
 
-            _transform.Translate(new Vector2(1, 0), _movementSpeed);
-            _transform.Rotate(1, _rotationSpeed);
+            //_transform.Translate(new Vector2(1, 0), _movementSpeed);
 
-            if (_transform.Position.X >= 1920 + _renderer.Texture.Width)
-                _transform.SetPositon(new Vector2(-_renderer.Texture.Width, _transform.Position.Y));
+            //if (_transform.Position.X >= 1920 + _renderer.Texture.Width)
+            //    _transform.SetPositon(new Vector2(-_renderer.Texture.Width, _transform.Position.Y));
 
-            currentAnimation.Update();
-            CheckCollision();
+            //currentAnimation.Update();
+            //CheckCollision();
         }
 
         public void CheckCollision()
@@ -85,7 +84,7 @@ namespace Game
 
         public void Render()
         {
-            _renderer.Render(_transform);
+            //_renderer.Render(_transform);
         }
 
         #endregion
