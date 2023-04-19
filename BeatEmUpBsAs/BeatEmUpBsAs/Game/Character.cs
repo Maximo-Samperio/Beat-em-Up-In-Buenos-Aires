@@ -43,7 +43,7 @@ namespace Game
         private void CreateAnimations()                                 // Creates animations
         {
             List<Texture> idleTextures = new List<Texture>();           // Creates a new list with all the sprites
-            for (int i = 0; i < 4; i++)                                 // If the number of anims. that passed is < 4
+            for (int i = 1; i < 5; i++)                                 // If the number of anims. that passed is < 4
             {
                 Texture frame = Engine.GetTexture($"Textures/BG/IdleAnim/{i}.png");     // Adress of the textures
                 idleTextures.Add(frame);                                // Then move on to the next one

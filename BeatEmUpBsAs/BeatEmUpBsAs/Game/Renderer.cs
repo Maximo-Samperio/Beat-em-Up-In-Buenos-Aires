@@ -28,6 +28,8 @@ namespace Game
 
         public void Render(Transform transform)
         {
+            _texture = _anim.CurrentFrame;
+
             Engine.Draw(
                 _texture, 
                 transform.Position.X, transform.Position.Y, 
