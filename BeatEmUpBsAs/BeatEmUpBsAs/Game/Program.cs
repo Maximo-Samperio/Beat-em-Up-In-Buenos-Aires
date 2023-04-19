@@ -22,12 +22,14 @@ namespace Game
         static void Main(string[] args)
         {
             Engine.Initialize("Game", 1920, 1080);
+            GameManager.Instance.Initialization();
             Initialization();
 
             while (true)
             {
                 Update();
-                Render();
+                GameManager.Instance.Update();
+                GameManager.Instance.Render();
             }
         }
 
@@ -57,7 +59,6 @@ namespace Game
 
             foreach (Character character in characters) character.Render();
             foreach (Enemy enemy in enemies) enemy.Render();
-
 
             Engine.Show();
         }
