@@ -14,7 +14,6 @@ namespace Game
 
         // Movement related variables
         private float _movementSpeed;
-        private float _rotationSpeed;
         private bool _isMoving;
         private bool _kick;
 
@@ -35,11 +34,8 @@ namespace Game
             //_renderer = new Renderer(texturePath, scale);               // Relates render to render
             _transform = new Transform(position, scale, angle);         // Transform to transform              
             _movementSpeed = movementSpeed;                             // Movement speed to movement speed
-            _rotationSpeed = 100f;                                      // Assigns a rotation speed
-
-            
-
         }
+
         private void CreateAnimations()                                 // Creates animations
         {
             // Idle animation
