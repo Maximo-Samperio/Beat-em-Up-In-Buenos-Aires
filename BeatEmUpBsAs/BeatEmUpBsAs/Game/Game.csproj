@@ -118,19 +118,19 @@
     <Content Include="Textures\BG\JumpKickAnim\jump_kick3.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\BG\KickAnim\kick1.png">
+    <Content Include="Textures\BG\KickAnim\1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\BG\KickAnim\kick2.png">
+    <Content Include="Textures\BG\KickAnim\2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\BG\KickAnim\kick3.png">
+    <Content Include="Textures\BG\KickAnim\3.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\BG\KickAnim\kick4.png">
+    <Content Include="Textures\BG\KickAnim\4.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\BG\KickAnim\kick5.png">
+    <Content Include="Textures\BG\KickAnim\5.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Textures\BG\PunchAnim\punch1.png">

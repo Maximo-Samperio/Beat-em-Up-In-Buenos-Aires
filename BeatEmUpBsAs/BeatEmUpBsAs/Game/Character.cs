@@ -16,9 +16,11 @@ namespace Game
         private float _movementSpeed;
         private float _rotationSpeed;
         private bool _isMoving;
+        private bool _kick;
 
         private Animation idleAnimation;
         private Animation walkAnimation;
+        private Animation kickAnimation;
         private Animation currentAnimation;
 
         #region PUBLIC_METODS
@@ -51,17 +53,28 @@ namespace Game
             idleAnimation = new Animation("Idle", idleTextures, 0.1f, true);
 
             // Running animation
-            List<Texture> walkTextures = new List<Texture>();           // Creates a new list with all the sprites
+            List<Texture> walkTextures = new List<Texture>();          
             if (_isMoving == true)
             {
-                for (int i = 1; i < 5; i++)                                 // If the number of anims. that passed is < 4
+                for (int i = 1; i < 5; i++)                                 
                 {
-                    Texture frame = Engine.GetTexture($"Textures/BG/WalkAnim/{i}.png");     // Adress of the textures
-                    walkTextures.Add(frame);                                // Then move on to the next one
+                    Texture frame = Engine.GetTexture($"Textures/BG/WalkAnim/{i}.png");     
+                    walkTextures.Add(frame);                                
                 }
             }
-            walkAnimation = new Animation("walk", walkTextures, 0.1f, true);
+            walkAnimation = new Animation("Walk", walkTextures, 0.1f, true);
 
+            // Kick Animation
+            List<Texture> kickTextures = new List<Texture>();          
+            if (_kick == true)
+            {
+                for (int i = 1; i < 6; i++)                                 
+                {
+                    Texture frame = Engine.GetTexture($"Textures/BG/KickAnim/{i}.png");     
+                    kickTextures.Add(frame);                               
+                }
+            }
+            kickAnimation = new Animation("Kick", kickTextures, 0.1f, true);
 
         }
         public void Initialize() { }
@@ -107,32 +120,39 @@ namespace Game
 
         private void InputReading()
         {
-            // Checks for the W key
+            // Checks for the W key for movement
             if (Engine.GetKey(Keys.W))
             {
                 MoveUp();
                 bool _isMoving = true;
             }
 
-            // Checks for the S key
+            // Checks for the S key for movement
             if (Engine.GetKey(Keys.S))
             {
                 MoveDown();
                 bool _isMoving = true;
             }
 
-            // Checks for the A key
+            // Checks for the A key for movement
             if (Engine.GetKey(Keys.A))
             {
                 MoveLeft();
                 bool _isMoving = true;
             }
 
-            // Checks for the D key
+            // Checks for the D key for movement
             if (Engine.GetKey(Keys.D))
             {
                 MoveRight();
                 bool _isMoving = true;
+            }
+
+            // Checks for the F key to kick
+            if (Engine.GetKey(Keys.F))
+            {
+                Kick();
+                bool _kick = true;
             }
         }
 
@@ -147,6 +167,9 @@ namespace Game
 
         // Moves the character to the right
         private void MoveRight() => _transform.Translate(new Vector2(1, 0), _movementSpeed);
+
+        // Makes the character throw a front kick
+        private void Kick() => _kick = true;
 
         #endregion
     }
