@@ -15,12 +15,10 @@ namespace Game
         // Movement related variables
         private float _movementSpeed;
         private float _rotationSpeed;
-        //private bool _isMovingUp;
-        //private bool _isMovingDown;
-        //private bool _isMovingRight;
-        //private bool _isMovingLeft;
+        private bool _isMoving;
 
         private Animation idleAnimation;
+        private Animation walkAnimation;
         private Animation currentAnimation;
 
         #region PUBLIC_METODS
@@ -42,6 +40,7 @@ namespace Game
         }
         private void CreateAnimations()                                 // Creates animations
         {
+            // Idle animation
             List<Texture> idleTextures = new List<Texture>();           // Creates a new list with all the sprites
             for (int i = 1; i < 5; i++)                                 // If the number of anims. that passed is < 4
             {
@@ -49,7 +48,20 @@ namespace Game
                 idleTextures.Add(frame);                                // Then move on to the next one
             }
 
-            idleAnimation = new Animation("Idle", idleTextures, 0.1f, true);            
+            idleAnimation = new Animation("Idle", idleTextures, 0.1f, true);
+
+            // Running animation
+            List<Texture> walkTextures = new List<Texture>();           // Creates a new list with all the sprites
+            if (_isMoving == true)
+            {
+                for (int i = 1; i < 5; i++)                                 // If the number of anims. that passed is < 4
+                {
+                    Texture frame = Engine.GetTexture($"Textures/BG/WalkAnim/{i}.png");     // Adress of the textures
+                    walkTextures.Add(frame);                                // Then move on to the next one
+                }
+            }
+            walkAnimation = new Animation("walk", walkTextures, 0.1f, true);
+
 
         }
         public void Initialize() { }
@@ -99,31 +111,28 @@ namespace Game
             if (Engine.GetKey(Keys.W))
             {
                 MoveUp();
-                //_isMovingUp = true;
+                bool _isMoving = true;
             }
 
             // Checks for the S key
             if (Engine.GetKey(Keys.S))
             {
                 MoveDown();
-                //_isMovingDown = true;
-
+                bool _isMoving = true;
             }
 
             // Checks for the A key
             if (Engine.GetKey(Keys.A))
             {
                 MoveLeft();
-                //_isMovingLeft = true;
-
+                bool _isMoving = true;
             }
 
             // Checks for the D key
             if (Engine.GetKey(Keys.D))
             {
                 MoveRight();
-                //_isMovingRight = true;
-
+                bool _isMoving = true;
             }
         }
 

@@ -145,16 +145,16 @@
     <Content Include="Textures\BG\Shadow\shadow.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\BG\WalkAnim\walk1.png">
+    <Content Include="Textures\BG\WalkAnim\1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\BG\WalkAnim\walk2.png">
+    <Content Include="Textures\BG\WalkAnim\2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\BG\WalkAnim\walk3.png">
+    <Content Include="Textures\BG\WalkAnim\3.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\BG\WalkAnim\walk4.png">
+    <Content Include="Textures\BG\WalkAnim\4.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Textures\Punk\HurtAnim\hurt1.png">
