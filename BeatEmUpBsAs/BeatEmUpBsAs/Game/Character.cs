@@ -9,8 +9,8 @@ namespace Game
     public class Character
     {
         // Character Properties
-        private Transform _transform;       // Transform of the character
-        private Renderer _renderer;         // Render of the character
+        public Transform _transform;       // Transform of the character
+        public Renderer _renderer;         // Render of the character
 
         // Movement related variables
         private float _movementSpeed;
@@ -101,9 +101,9 @@ namespace Game
             }
 
             // Checks if the character is colliding with the bottom margin so that it does not leave the screen
-            if (_transform.Position.Y > 900 )
+            if (_transform.Position.Y > 1000 )
             {
-                _transform.SetPositon(new Vector2(_transform.Position.X, 900));
+                _transform.SetPositon(new Vector2(_transform.Position.X, 1000));
             }
         }
 

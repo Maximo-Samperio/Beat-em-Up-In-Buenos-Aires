@@ -58,7 +58,6 @@ namespace Game
                 if (CurrentState == GameState.GameOverScreen)
                 {
                     ChangeGameState(GameState.MainMenu);
-
                 }
             }
         }

@@ -169,16 +169,16 @@
     <Content Include="Textures\Punk\HurtAnim\hurt4.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\Punk\IdleAnim\idle1.png">
+    <Content Include="Textures\Punk\IdleAnim\1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\Punk\IdleAnim\idle2.png">
+    <Content Include="Textures\Punk\IdleAnim\2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\Punk\IdleAnim\idle3.png">
+    <Content Include="Textures\Punk\IdleAnim\3.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\Punk\IdleAnim\idle4.png">
+    <Content Include="Textures\Punk\IdleAnim\4.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Textures\Punk\PunchAnim\punch1.png">
