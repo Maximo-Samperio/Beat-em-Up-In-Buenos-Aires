@@ -101,9 +101,9 @@ namespace Game
             }
 
             // Checks if the character is colliding with the bottom margin so that it does not leave the screen
-            if (_transform.Position.Y + _renderer.Texture.Height > 1080 )
+            if (_transform.Position.Y > 900 )
             {
-                _transform.SetPositon(new Vector2(_transform.Position.X, 1080 + _renderer.Texture.Height));
+                _transform.SetPositon(new Vector2(_transform.Position.X, 900));
             }
         }
 

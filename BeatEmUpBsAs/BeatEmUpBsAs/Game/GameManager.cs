@@ -42,7 +42,7 @@ namespace Game
 
         public void Initialization()
         {
-            ChangeGameState(GameState.Level);
+            ChangeGameState(GameState.MainMenu);
         }
 
         public void Update()
