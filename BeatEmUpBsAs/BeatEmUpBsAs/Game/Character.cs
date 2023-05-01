@@ -19,6 +19,7 @@ namespace Game
         // Movement related variables
         private float _movementSpeed;
         public bool _kick;
+        private bool _isMoving;
 
         private Animation idleAnimation;
         private Animation walkAnimation;
