@@ -15,6 +15,7 @@ namespace Game
         private static Character _player;
         private static Enemy _enemy;
 
+
         public static Character Player => _player;
         public static Enemy Enemy => _enemy;
 
@@ -36,9 +37,11 @@ namespace Game
         private static void Initialization()
         {
             _time.Initialize();
-    
-            enemies.Add(new Enemy("Textures/Punk/IdleAnim/idle1.png", new Vector2(900, 850), new Vector2(4, 4), 0, 0));
-            characters.Add( new Character("Textures/BG/IdleAnim/idle1.png", new Vector2(400, 850), new Vector2(4, 4), 0, 200));
+
+            _player = new Character("Textures/BG/IdleAnim/idle1.png", new Vector2(400, 850), new Vector2(4, 4), 0, 200);
+
+            _enemy = new Enemy("Textures/Punk/IdleAnim/idle1.png", new Vector2(900, 850), new Vector2(4, 4), 0, 0);
+
 
         }
 
@@ -49,6 +52,8 @@ namespace Game
 
 
             _time.Update();
+            _player.Update();
+            _enemy.Update();
         }
 
         public static void Render()
@@ -59,6 +64,8 @@ namespace Game
 
             foreach (Enemy enemy in enemies) enemy.Render();
             foreach (Character character in characters) character.Render();
+            _player.Render();
+            _enemy.Render();
 
             Engine.Show();
         }
