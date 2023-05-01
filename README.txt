@@ -1,0 +1,2 @@
+This is a university project created for the Object Oriented Programming subject. We were tasked with creating a videogame using ONLY the visual studiom with no engines such as unity allowed. 
+The objective was to reafirm our knowledge on how the software and physics works and by doing everything manually we accomplished said objective.
