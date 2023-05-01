@@ -31,10 +31,10 @@ namespace Game
             _texture = _anim.CurrentFrame;
 
             Engine.Draw(
-                _texture, 
-                transform.Position.X, transform.Position.Y, 
-                transform.Scale.X, transform.Scale.Y, 
-                transform.Angle, 
+                _texture,
+                transform.Position.X, transform.Position.Y,
+                transform.Scale.X, transform.Scale.Y,
+                transform.Angle,
                 _offset.X, _offset.Y);
         }
 
@@ -43,6 +43,14 @@ namespace Game
             return $"Texture : {_texture}\n" +
                     $"Width : {_texture.Width} / Height : {_texture.Height}\n" +
                     $"Offset - X : {_offset.X} / Y : {_offset.Y}";
+
+
+
+        }
+        public void ChangeAnimation(Animation anim)
+        {
+            _anim = anim;
+            _texture = _anim.CurrentFrame;
         }
     }
 }

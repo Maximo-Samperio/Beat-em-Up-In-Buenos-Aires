@@ -61,25 +61,24 @@ namespace Game
                 _transform.SetPositon(new Vector2(-_renderer.Texture.Width, _transform.Position.Y));
 
             currentAnimation.Update();
-           CheckCollision();
+           //CheckCollision();
         }
 
 
-        public void CheckCollision()
-        {
+        //public void CheckCollision()
+        //{
 
-            float distanceX = Math.Abs(_player.Transform.Position.X - _transform.Position.X);
-            float distanceY = Math.Abs(_player.Transform.Position.Y - _transform.Position.Y);
+        //    float distanceX = Math.Abs(_player.Transform.Position.X - _transform.Position.X);
+        //    float distanceY = Math.Abs(_player.Transform.Position.Y - _transform.Position.Y);
 
-            float sumHalfWidths = _player.Renderer.Texture.Width / 2 + _renderer.Texture.Width / 2;
-            float sumHalfHeights = _player.Renderer.Texture.Height / 2 + _renderer.Texture.Height / 2;
+        //    float sumHalfWidths = _player.Renderer.Texture.Width / 2 + _renderer.Texture.Width / 2;
+        //    float sumHalfHeights = _player.Renderer.Texture.Height / 2 + _renderer.Texture.Height / 2;
 
-            if (distanceX <= sumHalfWidths && distanceY <= sumHalfHeights)
-            {
-                Engine.Debug("Collision detected!");
-                GameManager.Instance.ChangeGameState(GameState.GameOverScreen);
-            }
-        }
+        //    if (distanceX <= sumHalfWidths && distanceY <= sumHalfHeights)
+        //    {
+        //        GameManager.Instance.ChangeGameState(GameState.GameOverScreen);
+        //    }
+        //}
 
 
         public void Render()

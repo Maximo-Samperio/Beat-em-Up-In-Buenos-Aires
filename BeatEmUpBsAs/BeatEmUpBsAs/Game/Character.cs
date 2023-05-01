@@ -120,7 +120,7 @@ namespace Game
             if (Engine.GetKey(Keys.W))
             {
                 MoveUp();
-                currentAnimation = walkAnimation;            
+                currentAnimation = walkAnimation;
             }
 
             // Checks for the S key for movement
@@ -157,7 +157,7 @@ namespace Game
         {
             _transform.Translate(new Vector2(0, -1), _movementSpeed);
             currentAnimation = walkAnimation;
-
+            _renderer.ChangeAnimation(currentAnimation);
         }
 
         // Moves the character down
@@ -165,6 +165,7 @@ namespace Game
         {
             _transform.Translate(new Vector2(0, 1), _movementSpeed);
             currentAnimation = walkAnimation;
+            _renderer.ChangeAnimation(currentAnimation);
         }
 
         // Moves the character to the left
@@ -172,6 +173,7 @@ namespace Game
         {
             _transform.Translate(new Vector2(-1, 0), _movementSpeed);
             currentAnimation = walkAnimation;
+            _renderer.ChangeAnimation(currentAnimation);
         }
 
         // Moves the character to the right
@@ -179,6 +181,7 @@ namespace Game
         {
             _transform.Translate(new Vector2(1, 0), _movementSpeed);
             currentAnimation = walkAnimation;
+            _renderer.ChangeAnimation(currentAnimation);
         }
 
         // Makes the character throw a front kick
@@ -186,6 +189,7 @@ namespace Game
         {
             _kick = true;
             currentAnimation = kickAnimation;
+            _renderer.ChangeAnimation(currentAnimation);
         }
 
         #endregion
