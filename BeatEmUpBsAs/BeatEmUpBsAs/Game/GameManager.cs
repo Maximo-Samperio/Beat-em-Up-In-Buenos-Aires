@@ -17,7 +17,7 @@ namespace Game
 
     public class GameManager
     {
-        private static GameManager instance;
+        public static GameManager instance;
 
         public const string GAMEOVER_PATH = "Textures/Screens/GameOver.png";
         public const string WIN_PATH = "Textures/Screens/Win.png";
@@ -59,7 +59,12 @@ namespace Game
                 {
                     ChangeGameState(GameState.MainMenu);
                 }
-            }
+
+                if (CurrentState == GameState.WinScreen)
+                {
+                    ChangeGameState(GameState.MainMenu);
+                }
+            }           
         }
 
         public void Render()

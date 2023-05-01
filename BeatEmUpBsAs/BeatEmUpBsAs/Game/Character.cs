@@ -85,8 +85,7 @@ namespace Game
             // Checks if the character is colliding with the right margin so that it does not leave the screen
             if (_transform.Position.X >= 1920 + _renderer.Texture.Width)
             {
-                _transform.SetPositon(new Vector2(-_renderer.Texture.Width, _transform.Position.Y)); //Replace in a future with screen background change
-
+                GameManager.Instance.ChangeGameState(GameState.WinScreen);
             }
 
             // Checks if the character is colliding with the left margin so that it does not leave the screen
