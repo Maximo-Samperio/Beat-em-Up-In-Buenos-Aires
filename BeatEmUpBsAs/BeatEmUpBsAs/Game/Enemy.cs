@@ -76,7 +76,14 @@ namespace Game
 
             if (distanceX <= sumHalfWidths && distanceY <= sumHalfHeights)
             {
-                GameManager.Instance.ChangeGameState(GameState.GameOverScreen);
+                if (_player._kick == true)
+                {
+                    GameManager.Instance.ChangeGameState(GameState.WinScreen);
+                }
+                else
+                {
+                    GameManager.Instance.ChangeGameState(GameState.GameOverScreen);
+                }
             }
         }
 

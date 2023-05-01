@@ -18,12 +18,12 @@ namespace Game
 
         // Movement related variables
         private float _movementSpeed;
-        private bool _kick;
+        public bool _kick;
 
         private Animation idleAnimation;
         private Animation walkAnimation;
-        private Animation kickAnimation;
-        private Animation currentAnimation;
+        public Animation kickAnimation;
+        public Animation currentAnimation;
 
         #region PUBLIC_METODS
 
@@ -156,6 +156,7 @@ namespace Game
         private void MoveUp()
         {
             _transform.Translate(new Vector2(0, -1), _movementSpeed);
+            _kick = false;
             currentAnimation = walkAnimation;
             _renderer.ChangeAnimation(currentAnimation);
         }
@@ -164,6 +165,7 @@ namespace Game
         private void MoveDown()
         {
             _transform.Translate(new Vector2(0, 1), _movementSpeed);
+            _kick = false;
             currentAnimation = walkAnimation;
             _renderer.ChangeAnimation(currentAnimation);
         }
@@ -172,6 +174,7 @@ namespace Game
         private void MoveLeft()
         {
             _transform.Translate(new Vector2(-1, 0), _movementSpeed);
+            _kick = false;
             currentAnimation = walkAnimation;
             _renderer.ChangeAnimation(currentAnimation);
         }
@@ -180,6 +183,7 @@ namespace Game
         private void MoveRight()
         {
             _transform.Translate(new Vector2(1, 0), _movementSpeed);
+            //_kick = false;
             currentAnimation = walkAnimation;
             _renderer.ChangeAnimation(currentAnimation);
         }
