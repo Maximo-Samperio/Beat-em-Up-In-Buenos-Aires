@@ -73,7 +73,7 @@ namespace Game
             switch (CurrentState)
             {
                 case GameState.MainMenu:
-                    Engine.Draw(MAINMENU_PATH, 0, 0);
+                    Engine.Draw(MAINMENU_PATH, 350, 0, .75f, .75f);
                     break;
 
                 case GameState.Credits:
@@ -85,7 +85,7 @@ namespace Game
                     break;
 
                 case GameState.WinScreen:
-                    Engine.Draw(WIN_PATH, 0, 0);
+                    Engine.Draw(WIN_PATH, 250, 0);
                     break;
 
                 case GameState.Level:
