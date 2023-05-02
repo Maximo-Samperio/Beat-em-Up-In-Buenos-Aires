@@ -22,7 +22,7 @@ namespace Game
 
         static void Main(string[] args)
         {
-            Engine.Initialize("Game", 1920, 1080);
+            Engine.Initialize("Beat Em Up in Buenos Aires", 1920, 1080);
             GameManager.Instance.Initialization();
             Initialization();
 
@@ -41,7 +41,6 @@ namespace Game
             _player = new Character("Textures/BG/IdleAnim/idle1.png", new Vector2(400, 850), new Vector2(4, 4), 0, 200);
 
             _enemy = new Enemy("Textures/Punk/IdleAnim/idle1.png", new Vector2(900, 850), new Vector2(4, 4), 0, 0);
-
 
         }
 

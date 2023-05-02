@@ -52,7 +52,6 @@ namespace Game
                 if (CurrentState == GameState.MainMenu)
                 {
                     ChangeGameState(GameState.Level);
-
                 }
 
                 if (CurrentState == GameState.GameOverScreen)
