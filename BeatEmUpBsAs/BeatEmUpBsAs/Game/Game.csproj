@@ -93,13 +93,13 @@
     <Content Include="Textures\BG\IdleAnim\4.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\BG\JabAnim\jab1.png">
+    <Content Include="Textures\BG\JabAnim\1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\BG\JabAnim\jab2.png">
+    <Content Include="Textures\BG\JabAnim\2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\BG\JabAnim\jab3.png">
+    <Content Include="Textures\BG\JabAnim\3.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Textures\BG\JumpAnim\jump1.png">
@@ -138,13 +138,13 @@
     <Content Include="Textures\BG\KickAnim\5.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\BG\PunchAnim\punch1.png">
+    <Content Include="Textures\BG\PunchAnim\1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\BG\PunchAnim\punch2.png">
+    <Content Include="Textures\BG\PunchAnim\2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\BG\PunchAnim\punch3.png">
+    <Content Include="Textures\BG\PunchAnim\3.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Textures\BG\Shadow\shadow.png">

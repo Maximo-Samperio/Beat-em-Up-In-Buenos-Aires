@@ -19,11 +19,13 @@ namespace Game
         // Movement related variables
         private float _movementSpeed;
         public bool _kick;
+        public bool _jab;
         private bool _isMoving;
 
         private Animation idleAnimation;
         private Animation walkAnimation;
         public Animation kickAnimation;
+        public Animation jabAnimation;
         public Animation currentAnimation;
 
         #region PUBLIC_METODS
@@ -73,6 +75,17 @@ namespace Game
                 }
 
             kickAnimation = new Animation("Kick", kickTextures, 0.1f, true);
+
+            // Jab Animation
+            List<Texture> jabTextures = new List<Texture>();
+
+            for (int i = 1; i < 4 ; i++)
+            {
+                Texture frame = Engine.GetTexture($"Textures/BG/JabAnim/{i}.png");
+                jabTextures.Add(frame);
+            }
+
+            jabAnimation = new Animation("Jab", jabTextures, 0.1f, true);
 
         }
         public void Initialize() { }
@@ -145,11 +158,18 @@ namespace Game
                 currentAnimation = walkAnimation;
             }
 
-            // Checks for the F key to kick
-            if (Engine.GetKey(Keys.F))
+            // Checks for the K key to kick
+            if (Engine.GetKey(Keys.K))
             {
                 Kick();
                 currentAnimation = kickAnimation;
+            }
+
+            // Checks for the J key to Jab
+            if (Engine.GetKey(Keys.J))
+            {
+                Jab();
+                currentAnimation = jabAnimation;
             }
         }
 
@@ -157,7 +177,10 @@ namespace Game
         private void MoveUp()
         {
             _transform.Translate(new Vector2(0, -1), _movementSpeed);
+
             _kick = false;
+            _jab = false;
+
             currentAnimation = walkAnimation;
             _renderer.ChangeAnimation(currentAnimation);
         }
@@ -166,7 +189,10 @@ namespace Game
         private void MoveDown()
         {
             _transform.Translate(new Vector2(0, 1), _movementSpeed);
+
             _kick = false;
+            _jab = false;
+
             currentAnimation = walkAnimation;
             _renderer.ChangeAnimation(currentAnimation);
         }
@@ -175,7 +201,10 @@ namespace Game
         private void MoveLeft()
         {
             _transform.Translate(new Vector2(-1, 0), _movementSpeed);
+
             _kick = false;
+            _jab = false;
+
             currentAnimation = walkAnimation;
             _renderer.ChangeAnimation(currentAnimation);
         }
@@ -184,7 +213,9 @@ namespace Game
         private void MoveRight()
         {
             _transform.Translate(new Vector2(1, 0), _movementSpeed);
+
             //_kick = false;
+            // _jab = false;
             currentAnimation = walkAnimation;
             _renderer.ChangeAnimation(currentAnimation);
         }
@@ -193,7 +224,16 @@ namespace Game
         private void Kick()
         {
             _kick = true;
+            _jab = false;
             currentAnimation = kickAnimation;
+            _renderer.ChangeAnimation(currentAnimation);
+        }
+
+        private void Jab()
+        {
+            _kick = false;
+            _jab = true;
+            currentAnimation = jabAnimation;
             _renderer.ChangeAnimation(currentAnimation);
         }
 

@@ -76,7 +76,7 @@ namespace Game
 
             if (distanceX <= sumHalfWidths && distanceY <= sumHalfHeights)
             {
-                if (_player._kick == true)
+                if (_player._kick == true || _player._jab == true)
                 {
                     GameManager.Instance.ChangeGameState(GameState.WinScreen);
                 }
