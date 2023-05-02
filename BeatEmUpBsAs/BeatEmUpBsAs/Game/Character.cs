@@ -20,12 +20,16 @@ namespace Game
         private float _movementSpeed;
         public bool _kick;
         public bool _jab;
+        public bool _punch;
+        public bool _jump;
         private bool _isMoving;
 
         private Animation idleAnimation;
         private Animation walkAnimation;
         public Animation kickAnimation;
         public Animation jabAnimation;
+        public Animation punchAnimation;
+        public Animation jumpAnimation;
         public Animation currentAnimation;
 
         #region PUBLIC_METODS
@@ -55,31 +59,31 @@ namespace Game
             idleAnimation = new Animation("Idle", idleTextures, 0.1f, true);
 
             // Running animation
-            List<Texture> walkTextures = new List<Texture>();          
-            
-                for (int i = 1; i < 5; i++)                                 
-                {
-                    Texture frame = Engine.GetTexture($"Textures/BG/WalkAnim/{i}.png");     
-                    walkTextures.Add(frame);                                
-                }
-  
+            List<Texture> walkTextures = new List<Texture>();
+
+            for (int i = 1; i < 5; i++)
+            {
+                Texture frame = Engine.GetTexture($"Textures/BG/WalkAnim/{i}.png");
+                walkTextures.Add(frame);
+            }
+
             walkAnimation = new Animation("Walk", walkTextures, 0.1f, true);
 
             // Kick Animation
-            List<Texture> kickTextures = new List<Texture>();          
-            
-                for (int i = 1; i < 6; i++)                                 
-                {
-                    Texture frame = Engine.GetTexture($"Textures/BG/KickAnim/{i}.png");     
-                    kickTextures.Add(frame);                               
-                }
+            List<Texture> kickTextures = new List<Texture>();
+
+            for (int i = 1; i < 6; i++)
+            {
+                Texture frame = Engine.GetTexture($"Textures/BG/KickAnim/{i}.png");
+                kickTextures.Add(frame);
+            }
 
             kickAnimation = new Animation("Kick", kickTextures, 0.1f, true);
 
             // Jab Animation
             List<Texture> jabTextures = new List<Texture>();
 
-            for (int i = 1; i < 4 ; i++)
+            for (int i = 1; i < 4; i++)
             {
                 Texture frame = Engine.GetTexture($"Textures/BG/JabAnim/{i}.png");
                 jabTextures.Add(frame);
@@ -87,10 +91,32 @@ namespace Game
 
             jabAnimation = new Animation("Jab", jabTextures, 0.1f, true);
 
+            // punch Animation
+            List<Texture> punchTextures = new List<Texture>();
+
+            for (int i = 1; i < 4; i++)
+            {
+                Texture frame = Engine.GetTexture($"Textures/BG/PunchAnim/{i}.png");
+                punchTextures.Add(frame);
+            }
+
+            punchAnimation = new Animation("punch", punchTextures, 0.1f, true);
+
+            // jump Animation
+            List<Texture> jumpTextures = new List<Texture>();
+
+            for (int i = 1; i < 5; i++)
+            {
+                Texture frame = Engine.GetTexture($"Textures/BG/JumpAnim/{i}.png");
+                jumpTextures.Add(frame);
+            }
+
+            jumpAnimation = new Animation("jump", jumpTextures, 0.1f, true);
+
         }
         public void Initialize() { }
 
-        public void Update() 
+        public void Update()
         {
             InputReading();
             currentAnimation.Update();
@@ -105,7 +131,7 @@ namespace Game
             // Checks if the character is colliding with the left margin so that it does not leave the screen
             if (_transform.Position.X < 0 + _renderer.Texture.Width)
             {
-                _transform.SetPositon(new Vector2(0 + _renderer.Texture.Width, _transform.Position.Y));       
+                _transform.SetPositon(new Vector2(0 + _renderer.Texture.Width, _transform.Position.Y));
             }
 
             // Prevents the character from moving up more than desired
@@ -115,7 +141,7 @@ namespace Game
             }
 
             // Checks if the character is colliding with the bottom margin so that it does not leave the screen
-            if (_transform.Position.Y > 1000 )
+            if (_transform.Position.Y > 1000)
             {
                 _transform.SetPositon(new Vector2(_transform.Position.X, 1000));
             }
@@ -171,6 +197,20 @@ namespace Game
                 Jab();
                 currentAnimation = jabAnimation;
             }
+
+            // Checks for the H key to punch
+            if (Engine.GetKey(Keys.H))
+            {
+                Punch();
+                currentAnimation = punchAnimation;
+            }
+
+            // Checks for the SPACE key to punch
+            if (Engine.GetKey(Keys.SPACE))
+            {
+                Jump();
+                currentAnimation = jumpAnimation;
+            }
         }
 
         // Moves the character up
@@ -180,7 +220,8 @@ namespace Game
 
             _kick = false;
             _jab = false;
-
+            _punch = false;
+           
             currentAnimation = walkAnimation;
             _renderer.ChangeAnimation(currentAnimation);
         }
@@ -192,6 +233,8 @@ namespace Game
 
             _kick = false;
             _jab = false;
+            _punch = false;
+
 
             currentAnimation = walkAnimation;
             _renderer.ChangeAnimation(currentAnimation);
@@ -204,6 +247,8 @@ namespace Game
 
             _kick = false;
             _jab = false;
+            _punch = false;
+
 
             currentAnimation = walkAnimation;
             _renderer.ChangeAnimation(currentAnimation);
@@ -214,8 +259,10 @@ namespace Game
         {
             _transform.Translate(new Vector2(1, 0), _movementSpeed);
 
+            // _punch = false;
             //_kick = false;
             // _jab = false;
+
             currentAnimation = walkAnimation;
             _renderer.ChangeAnimation(currentAnimation);
         }
@@ -225,6 +272,8 @@ namespace Game
         {
             _kick = true;
             _jab = false;
+            _punch = false;
+
             currentAnimation = kickAnimation;
             _renderer.ChangeAnimation(currentAnimation);
         }
@@ -233,7 +282,30 @@ namespace Game
         {
             _kick = false;
             _jab = true;
+            _punch = false;
+
             currentAnimation = jabAnimation;
+            _renderer.ChangeAnimation(currentAnimation);
+        }
+
+        private void Punch()
+        {
+            _kick = false;
+            _jab = false;
+            _punch = true;
+
+            currentAnimation = punchAnimation;
+            _renderer.ChangeAnimation(currentAnimation);
+        }
+
+        private void Jump()
+        {
+            _kick = false;
+            _jab = false;
+            _punch = false;
+            _jump = true;
+
+            currentAnimation = jumpAnimation;
             _renderer.ChangeAnimation(currentAnimation);
         }
 

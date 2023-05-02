@@ -102,16 +102,16 @@
     <Content Include="Textures\BG\JabAnim\3.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\BG\JumpAnim\jump1.png">
+    <Content Include="Textures\BG\JumpAnim\1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\BG\JumpAnim\jump2.png">
+    <Content Include="Textures\BG\JumpAnim\2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\BG\JumpAnim\jump3.png">
+    <Content Include="Textures\BG\JumpAnim\3.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\BG\JumpAnim\jump4.png">
+    <Content Include="Textures\BG\JumpAnim\4.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Textures\BG\JumpKickAnim\jump_kick1.png">
