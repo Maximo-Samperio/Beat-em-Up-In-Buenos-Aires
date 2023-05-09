@@ -56,6 +56,7 @@ namespace Game
             _time.Update();
             _player.Update();
             _enemy.Update();
+            _enemy.Update();
         }
 
         public static void Render()
