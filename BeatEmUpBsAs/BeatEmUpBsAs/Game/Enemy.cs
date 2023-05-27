@@ -25,7 +25,7 @@ namespace Game
 
         public Enemy(string texturePath, Vector2 position, Vector2 scale, float angle, float movementSpeed)
         {
-            _player = Program.Player;
+            _player = LevelController.Player;
             _transform = new Transform(position, scale, angle);
 
 

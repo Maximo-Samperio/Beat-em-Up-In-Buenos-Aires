@@ -24,8 +24,12 @@ namespace Game
         public const string CREDITS_PATH = "Textures/Screens/Credits.png";
         public const string MAINMENU_PATH = "Textures/Screens/MainMenu.png";
 
+        public StaticScreen GameOverScreen = new StaticScreen("Textures/Screens/GameOver.png");
+        public StaticScreen WinScreen = new StaticScreen("Textures/Screens/Win.png");
+        public StaticScreen CreditsScreen = new StaticScreen("Textures/Screens/Credits.png");
+        public StaticScreen MainScreen = new StaticScreen("Textures/Screens/MainMenu.png");
 
-
+        public LevelController LevelController { get; private set; }
         public static GameManager Instance
         {
             get
@@ -42,11 +46,15 @@ namespace Game
 
         public void Initialization()
         {
+            LevelController = new LevelController();
+            LevelController.Initialization();
             ChangeGameState(GameState.MainMenu);
+            
         }
 
         public void Update()
         {
+            LevelController.Update();
             if (Engine.GetKey(Keys.SPACE))
             {
                 if (CurrentState == GameState.MainMenu)
@@ -72,23 +80,23 @@ namespace Game
             switch (CurrentState)
             {
                 case GameState.MainMenu:
-                    Engine.Draw(MAINMENU_PATH, 350, 0, .75f, .75f);
+                    MainScreen.Render();
                     break;
 
                 case GameState.Credits:
-                    Engine.Draw(CREDITS_PATH, 0, 0);
+                   CreditsScreen.Render();
                     break;
 
                 case GameState.GameOverScreen:
-                    Engine.Draw(GAMEOVER_PATH, 0, 0);
+                    GameOverScreen.Render();
                     break;
 
                 case GameState.WinScreen:
-                    Engine.Draw(WIN_PATH, 250, 0);
+                    WinScreen.Render();
                     break;
 
                 case GameState.Level:
-                    Program.Render();
+                    LevelController.Render();
                     break;
                 default:
                     break;
