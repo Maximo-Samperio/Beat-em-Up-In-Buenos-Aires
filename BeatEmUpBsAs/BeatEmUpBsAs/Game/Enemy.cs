@@ -61,12 +61,14 @@ namespace Game
                 _transform.SetPositon(new Vector2(-_renderer.Texture.Width, _transform.Position.Y));
 
             currentAnimation.Update();
-           CheckCollision();
+            CheckCollision();
         }
 
 
         public void CheckCollision()
         {
+
+            List<Enemy> enemiesToDelete = new List<Enemy>();
 
             float distanceX = Math.Abs(_player.Transform.Position.X - _transform.Position.X);
             float distanceY = Math.Abs(_player.Transform.Position.Y - _transform.Position.Y);
@@ -78,7 +80,8 @@ namespace Game
             {
                 if (_player._kick == true || _player._jab == true || _player._punch == true)
                 {
-                    GameManager.Instance.ChangeGameState(GameState.WinScreen);
+                    //enemiesToDelete.Add(enemy);
+                    //GameManager.Instance.ChangeGameState(GameState.WinScreen);
                 }
                 else
                 {
@@ -86,7 +89,6 @@ namespace Game
                 }
             }
         }
-
 
         public void Render()
         {

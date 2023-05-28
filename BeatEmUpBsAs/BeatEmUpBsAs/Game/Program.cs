@@ -27,7 +27,9 @@ namespace Game
 
         private static void Update()
         {
+
             GameManager.Instance.Update();
+
         }
 
         public static void Render()

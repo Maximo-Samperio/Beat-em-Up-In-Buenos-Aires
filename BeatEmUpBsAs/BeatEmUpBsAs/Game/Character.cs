@@ -24,6 +24,8 @@ namespace Game
         public bool _jump;
         private bool _isMoving;
 
+        private DateTime timeFromLastAttack;
+
         private Animation idleAnimation;
         private Animation walkAnimation;
         public Animation kickAnimation;
@@ -146,6 +148,17 @@ namespace Game
                 _transform.SetPositon(new Vector2(_transform.Position.X, 1000));
             }
         }
+
+        //public void AttackTimer()
+        //{
+        //    DateTime currentTime = DateTime.Now;
+        //    if ((currentTime - timeFromLastAttack). TotalSeconds >= timeBetweenShoots)
+        //    {
+        //        Kick();
+        //        timeFromLastAttack = currentTime;
+        //    }
+        //}
+
 
         // Renders the entire thing
         public void Render() => _renderer.Render(_transform);
