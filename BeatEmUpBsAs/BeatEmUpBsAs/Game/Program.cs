@@ -36,5 +36,33 @@ namespace Game
         {
             GameManager.Instance.Render();
         }
+
+        static void ProcessString(string s )
+        { 
+            if (s == null)
+	        {
+                throw new ArgumentNullException();
+	        }
+        }
+
+        static void Main()
+        {
+            try
+            {
+                string s = null;
+                ProcessString(s);
+            }
+
+            //More specific
+            catch (ArgumentException e)
+            {
+                Console.WriteLine("{0} First exception caught.", e);
+            }
+
+            catch (Exception e)
+            {
+                Console.WriteLine("{0} Second exception caught.", e);
+            }
+        }
     }
 }
