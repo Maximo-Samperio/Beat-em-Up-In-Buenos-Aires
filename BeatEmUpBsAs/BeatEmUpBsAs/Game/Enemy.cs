@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,6 +21,9 @@ namespace Game
         //Movement values
         private float _movementSpeed;
         private float _rotationSpeed;
+
+
+
 
         #region PUBLIC_METODS
 
@@ -62,6 +66,7 @@ namespace Game
 
             currentAnimation.Update();
             CheckCollision();
+            TrackPlayer();
         }
 
 
@@ -88,6 +93,19 @@ namespace Game
                     GameManager.Instance.ChangeGameState(GameState.GameOverScreen);
                 }
             }
+        }
+
+        public void TrackPlayer()
+        {
+            float distanceX = Math.Abs(_player.Transform.Position.X - _transform.Position.X);
+            float distanceY = Math.Abs(_player.Transform.Position.Y - _transform.Position.Y);
+
+            float multX = distanceX * distanceX;
+            float multY = distanceY * distanceY;
+
+            float result = multX + multY;
+
+            float goTo = Math.Sqrt(result);
         }
 
         public void Render()
