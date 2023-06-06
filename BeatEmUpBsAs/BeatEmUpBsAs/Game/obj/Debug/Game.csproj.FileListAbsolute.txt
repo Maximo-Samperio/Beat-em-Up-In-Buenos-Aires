@@ -1,206 +1,65 @@
-D:\Download\Firefox\Proyecto Base 2\Game\bin\Debug\Engine.dll
-D:\Download\Firefox\Proyecto Base 2\Game\bin\Debug\ship.png
-D:\Download\Firefox\Proyecto Base 2\Game\bin\Debug\Game.exe
-D:\Download\Firefox\Proyecto Base 2\Game\bin\Debug\Game.pdb
-D:\Download\Firefox\Proyecto Base 2\Game\obj\Debug\Game.csprojAssemblyReference.cache
-D:\Download\Firefox\Proyecto Base 2\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
-D:\Download\Firefox\Proyecto Base 2\Game\obj\Debug\Game.exe
-D:\Download\Firefox\Proyecto Base 2\Game\obj\Debug\Game.pdb
-D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos\Proyecto Base 2\Game\bin\Debug\Engine.dll
-D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos\Proyecto Base 2\Game\bin\Debug\Game.exe
-D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos\Proyecto Base 2\Game\bin\Debug\Game.pdb
-D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos\Proyecto Base 2\Game\obj\Debug\Game.csprojAssemblyReference.cache
-D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos\Proyecto Base 2\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
-D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos\Proyecto Base 2\Game\obj\Debug\Game.exe
-D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos\Proyecto Base 2\Game\obj\Debug\Game.pdb
-D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos\Proyecto Base 2\Game\bin\Debug\Textures\BackgroundSpace.png
-D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos\Proyecto Base 2\Game\bin\Debug\Textures\ship.png
-D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos por clase\Proyecto Base 2\Game\bin\Debug\Textures\BackgroundSpace.png
-D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos por clase\Proyecto Base 2\Game\bin\Debug\Engine.dll
-D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos por clase\Proyecto Base 2\Game\bin\Debug\Textures\ship.png
-D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos por clase\Proyecto Base 2\Game\bin\Debug\Game.exe
-D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos por clase\Proyecto Base 2\Game\bin\Debug\Game.pdb
-D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos por clase\Proyecto Base 2\Game\obj\Debug\Game.csprojAssemblyReference.cache
-D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos por clase\Proyecto Base 2\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
-D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos por clase\Proyecto Base 2\Game\obj\Debug\Game.exe
-D:\UADE\UADE - 2023-1 - Paradigmas\Proyectos por clase\Proyecto Base 2\Game\obj\Debug\Game.pdb
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\Project\Proyecto - Clase 4\Proyecto Base 2\Game\bin\Debug\Textures\BackgroundSpace.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\Project\Proyecto - Clase 4\Proyecto Base 2\Game\bin\Debug\Engine.dll
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\Project\Proyecto - Clase 4\Proyecto Base 2\Game\bin\Debug\Textures\ship.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\Project\Proyecto - Clase 4\Proyecto Base 2\Game\bin\Debug\Game.exe.config
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\Project\Proyecto - Clase 4\Proyecto Base 2\Game\bin\Debug\Game.exe
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\Project\Proyecto - Clase 4\Proyecto Base 2\Game\bin\Debug\Game.pdb
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\Project\Proyecto - Clase 4\Proyecto Base 2\Game\obj\Debug\Game.csproj.AssemblyReference.cache
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\Project\Proyecto - Clase 4\Proyecto Base 2\Game\obj\Debug\Game.csproj.SuggestedBindingRedirects.cache
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\Project\Proyecto - Clase 4\Proyecto Base 2\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\Project\Proyecto - Clase 4\Proyecto Base 2\Game\obj\Debug\Game.exe
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\Project\Proyecto - Clase 4\Proyecto Base 2\Game\obj\Debug\Game.pdb
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BackgroundSpace.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Engine.dll
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\ship.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Game.exe.config
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Game.exe
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Game.pdb
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.csproj.AssemblyReference.cache
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.csproj.SuggestedBindingRedirects.cache
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.exe
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.pdb
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG_Idle1.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Current_Avenue_1.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BackgroundSpace.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Engine.dll
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG_Idle1.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Current_Avenue_1.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\ship.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Game.exe.config
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Game.exe
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Game.pdb
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.csproj.AssemblyReference.cache
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.csproj.SuggestedBindingRedirects.cache
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.exe
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\B- Segundo Año\Primer Cuatrimestre\B- Paradigmas de programación\BeatEmUpBsAs - Copy\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.pdb
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Engine.dll
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Game.exe.config
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Game.exe
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Game.pdb
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.csproj.AssemblyReference.cache
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.csproj.SuggestedBindingRedirects.cache
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.exe
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.pdb
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\DiveKickAnim\dive_kick1.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\DiveKickAnim\dive_kick2.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\DiveKickAnim\dive_kick3.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\DiveKickAnim\dive_kick4.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\DiveKickAnim\dive_kick5.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\HurtAnim\hurt1.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\HurtAnim\hurt2.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpKickAnim\jump_kick1.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpKickAnim\jump_kick2.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpKickAnim\jump_kick3.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\Shadow\shadow.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\HurtAnim\hurt1.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\HurtAnim\hurt2.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\HurtAnim\hurt3.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\HurtAnim\hurt4.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\PunchAnim\punch1.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\PunchAnim\punch2.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\PunchAnim\punch3.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\Shadow\shadow.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\WalkAnim\walk1.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\WalkAnim\walk2.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\WalkAnim\walk3.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\WalkAnim\walk4.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Backgrounds\Current_Avenue_1.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\IdleAnim\1.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\IdleAnim\2.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\IdleAnim\3.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\IdleAnim\4.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\WalkAnim\1.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\WalkAnim\2.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\WalkAnim\3.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\WalkAnim\4.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\KickAnim\1.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\KickAnim\2.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\KickAnim\3.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\KickAnim\4.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\KickAnim\5.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Screens\StartMenu
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Screens\MainMenu.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Screens\GameOver.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\IdleAnim\1.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\IdleAnim\2.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\IdleAnim\3.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\IdleAnim\4.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Screens\Win.png
-<<<<<<< Updated upstream
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Music\Music.wav
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JabAnim\1.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JabAnim\2.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JabAnim\3.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\PunchAnim\1.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\PunchAnim\2.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\PunchAnim\3.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Engine.dll
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Music\Music.wav
-=======
->>>>>>> Stashed changes
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Backgrounds\Current_Avenue_1.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\DiveKickAnim\dive_kick1.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\DiveKickAnim\dive_kick2.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\DiveKickAnim\dive_kick3.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\DiveKickAnim\dive_kick4.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\DiveKickAnim\dive_kick5.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\HurtAnim\hurt1.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\HurtAnim\hurt2.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\IdleAnim\1.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\IdleAnim\2.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\IdleAnim\3.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\IdleAnim\4.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JabAnim\1.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JabAnim\2.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JabAnim\3.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JabAnim\jab1.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JabAnim\jab2.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JabAnim\jab3.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpAnim\jump1.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpAnim\jump2.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpAnim\jump3.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpAnim\jump4.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpKickAnim\jump_kick1.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpKickAnim\jump_kick2.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpKickAnim\jump_kick3.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\KickAnim\1.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\KickAnim\2.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\KickAnim\3.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\KickAnim\4.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\KickAnim\5.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\PunchAnim\1.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\PunchAnim\2.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\PunchAnim\3.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\PunchAnim\punch1.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\PunchAnim\punch2.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\PunchAnim\punch3.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\Shadow\shadow.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\WalkAnim\1.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\WalkAnim\2.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\WalkAnim\3.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\WalkAnim\4.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\HurtAnim\hurt1.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\HurtAnim\hurt2.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\HurtAnim\hurt3.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\HurtAnim\hurt4.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\IdleAnim\1.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\IdleAnim\2.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\IdleAnim\3.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\IdleAnim\4.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\PunchAnim\punch1.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\PunchAnim\punch2.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\PunchAnim\punch3.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\Shadow\shadow.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\WalkAnim\walk1.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\WalkAnim\walk2.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\WalkAnim\walk3.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\WalkAnim\walk4.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Screens\GameOver.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Screens\MainMenu.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Screens\Win.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Screens\StartMenu
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Game.exe.config
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Game.exe
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Game.pdb
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.csproj.AssemblyReference.cache
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.csproj.SuggestedBindingRedirects.cache
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.exe
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.pdb
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpAnim\1.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpAnim\2.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpAnim\3.png
-C:\Users\Stetik\Desktop\FACULTAD\programacion\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpAnim\4.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpAnim\1.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpAnim\2.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpAnim\3.png
-C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpAnim\4.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Engine.dll
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Music\Music.wav
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Backgrounds\Current_Avenue_1.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\DiveKickAnim\dive_kick1.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\DiveKickAnim\dive_kick2.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\DiveKickAnim\dive_kick3.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\DiveKickAnim\dive_kick4.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\DiveKickAnim\dive_kick5.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\HurtAnim\hurt1.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\HurtAnim\hurt2.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\IdleAnim\1.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\IdleAnim\2.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\IdleAnim\3.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\IdleAnim\4.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JabAnim\1.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JabAnim\2.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JabAnim\3.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpAnim\1.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpAnim\2.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpAnim\3.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpAnim\4.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpKickAnim\jump_kick1.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpKickAnim\jump_kick2.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\JumpKickAnim\jump_kick3.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\KickAnim\1.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\KickAnim\2.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\KickAnim\3.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\KickAnim\4.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\KickAnim\5.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\PunchAnim\1.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\PunchAnim\2.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\PunchAnim\3.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\Shadow\shadow.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\WalkAnim\1.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\WalkAnim\2.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\WalkAnim\3.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\BG\WalkAnim\4.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\HurtAnim\hurt1.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\HurtAnim\hurt2.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\HurtAnim\hurt3.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\HurtAnim\hurt4.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\IdleAnim\1.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\IdleAnim\2.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\IdleAnim\3.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\IdleAnim\4.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\PunchAnim\punch1.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\PunchAnim\punch2.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\PunchAnim\punch3.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\Shadow\shadow.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\WalkAnim\walk1.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\WalkAnim\walk2.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\WalkAnim\walk3.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Punk\WalkAnim\walk4.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Screens\GameOver.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Screens\MainMenu.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Screens\Win.png
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Screens\StartMenu
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Game.exe.config
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Game.exe
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Game.pdb
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.csproj.SuggestedBindingRedirects.cache
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.exe
+C:\Users\lefet\Desktop\UADE 2DO CUATRIMESTRE\PARADIGMAS DE PROGRAMACION\BeatEmUp\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\obj\Debug\Game.pdb

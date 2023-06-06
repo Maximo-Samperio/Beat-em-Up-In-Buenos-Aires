@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Game;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,13 +9,17 @@ namespace Game
 {
     public class Character
     {
+
         // Character Properties
         private Transform _transform;       // Transform of the character
         public Transform Transform => _transform;
 
         private Renderer _renderer;         // Render of the character
         public Renderer Renderer => _renderer;
+        // Input Variables
+        public static Action<bool> OnClick;
 
+        private static bool clickState;
 
         // Movement related variables
         private float _movementSpeed;
@@ -120,6 +125,17 @@ namespace Game
 
         public void Update()
         {
+            if (Engine.GetKey(Keys.SPACE) && !clickState)
+            {
+                clickState = true;
+                OnClick?.Invoke(clickState);
+            }
+            else if (!Engine.GetKey(Keys.SPACE) && clickState)
+            {
+                clickState = false;
+                OnClick?.Invoke(clickState);
+            }
+
             InputReading();
             currentAnimation.Update();
 

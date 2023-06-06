@@ -45,7 +45,7 @@ namespace Game
 	        }
         }
 
-        static void Main()
+       /* static void Main()
         {
             try
             {
@@ -63,6 +63,6 @@ namespace Game
             {
                 Console.WriteLine("{0} Second exception caught.", e);
             }
-        }
+        }*/
     }
 }
