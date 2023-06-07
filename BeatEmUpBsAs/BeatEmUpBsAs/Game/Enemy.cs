@@ -19,7 +19,7 @@ namespace Game
         private Character _player;
 
         //Movement values
-        private float _movementSpeed;
+        private float _movementSpeed = 30;
         private float _rotationSpeed;
 
 
@@ -97,15 +97,13 @@ namespace Game
 
         public void TrackPlayer()
         {
-            float distanceX = Math.Abs(_player.Transform.Position.X - _transform.Position.X);
-            float distanceY = Math.Abs(_player.Transform.Position.Y - _transform.Position.Y);
+            float distanceX = _player.Transform.Position.X - _transform.Position.X;
+            float distanceY = _player.Transform.Position.Y - _transform.Position.Y;
 
-            float multX = distanceX * distanceX;
-            float multY = distanceY * distanceY;
+            float normal = (float)Math.Sqrt(distanceX * distanceX + distanceY * distanceY);
+            Vector2 direccion = new Vector2(distanceX / normal, distanceY / normal);
 
-            float result = multX + multY;
-
-            float goTo = Math.Sqrt(result);
+            Transform.Translate(direccion, _movementSpeed);
         }
 
         public void Render()
