@@ -103,7 +103,7 @@ namespace Game
             float normal = (float)Math.Sqrt(distanceX * distanceX + distanceY * distanceY);
             Vector2 direccion = new Vector2(distanceX / normal, distanceY / normal);
 
-            Transform.Translate(direccion, _movementSpeed);
+            Transform.Translate(direccion, _player._movementSpeed);
         }
 
         public void Render()

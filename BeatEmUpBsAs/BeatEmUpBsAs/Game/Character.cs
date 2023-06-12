@@ -22,7 +22,7 @@ namespace Game
         private static bool clickState;
 
         // Movement related variables
-        private float _movementSpeed;
+        public float _movementSpeed;
         public bool _kick;
         public bool _jab;
         public bool _punch;
