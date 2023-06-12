@@ -66,7 +66,12 @@ namespace Game
 
             currentAnimation.Update();
             CheckCollision();
-            TrackPlayer();
+
+            if (GameManager.CurrentState == GameState.Level)
+            {
+                TrackPlayer();
+            }
+            
         }
 
 
@@ -101,9 +106,9 @@ namespace Game
             float distanceY = _player.Transform.Position.Y - _transform.Position.Y;
 
             float normal = (float)Math.Sqrt(distanceX * distanceX + distanceY * distanceY);
-            Vector2 direccion = new Vector2(distanceX / normal, distanceY / normal);
+            Vector2 direction = new Vector2(distanceX / normal, distanceY / normal);
 
-            Transform.Translate(direccion, _player._movementSpeed);
+            _transform.Translate(direction, _player._movementSpeed);
         }
 
         public void Render()
