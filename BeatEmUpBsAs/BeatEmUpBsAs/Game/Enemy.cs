@@ -67,7 +67,7 @@ namespace Game
             currentAnimation.Update();
             CheckCollision();
 
-            if (GameManager.CurrentState == GameState.Level)
+            if (GameManager.instance.CurrentState == GameState.Level)
             {
                 TrackPlayer();
             }
