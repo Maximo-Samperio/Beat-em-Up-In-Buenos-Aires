@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,18 +11,27 @@ namespace Game
     public class Enemy
     {
 
-        //Enemy properties
+        // Enemy properties
         private Transform _transform;
         private Renderer _renderer;
         private Animation idleAnimation;
         private Animation currentAnimation;
         private Transform _playerTransform;
         private Character _player;
+        bool hasCollided = false;
 
+<<<<<<< HEAD
         //Movement values
-        private float _movementSpeed = 0;
+        private float _movementSpeed = 30;
+=======
+        // Movement values
+        private float _movementSpeed = 30;
+>>>>>>> 8219a5c099c1a518d00cd33249f195f8805e4827
         private float _rotationSpeed;
 
+        // Events
+        //public event Action <bool> OnColliison;
+        public delegate void KillEnemy(bool playerAttack);
 
 
 
@@ -90,7 +100,8 @@ namespace Game
             {
                 if (_player._kick == true || _player._jab == true || _player._punch == true)
                 {
-                    //enemiesToDelete.Add(enemy);
+                    OnCollision();
+                    //enemiesToDelete.Add(Enemy);
                     //GameManager.Instance.ChangeGameState(GameState.WinScreen);
                 }
                 else
@@ -98,6 +109,12 @@ namespace Game
                     GameManager.Instance.ChangeGameState(GameState.GameOverScreen);
                 }
             }
+        }
+        private void OnCollision()
+        {
+            //Delete Enemy
+            GameManager.Instance.ChangeGameState(GameState.WinScreen);
+            Debug.Write("Enemy dead");
         }
 
         public void TrackPlayer()
@@ -115,6 +132,7 @@ namespace Game
         {
             _renderer.Render(_transform);
         }
+
 
         #endregion
 
