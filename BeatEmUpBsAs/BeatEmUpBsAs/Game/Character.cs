@@ -1,7 +1,9 @@
 ﻿using Game;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -28,6 +30,7 @@ namespace Game
         public bool _punch;
         public bool _jump;
         private bool _isMoving;
+        
 
         private DateTime timeFromLastAttack;
 
@@ -55,70 +58,73 @@ namespace Game
 
         private void CreateAnimations()                                 // Creates animations
         {
+            Texture frame;
+
             // Idle animation
             List<Texture> idleTextures = new List<Texture>();           // Creates a new list with all the sprites
             for (int i = 1; i < 5; i++)                                 // If the number of anims. that passed is < 4
             {
-                Texture frame = Engine.GetTexture($"Textures/BG/IdleAnim/{i}.png");     // Adress of the textures
+                frame = Engine.GetTexture($"Textures/BG/IdleAnim/{i}.png");     // Adress of the textures
                 idleTextures.Add(frame);                                // Then move on to the next one
             }
 
-            idleAnimation = new Animation("Idle", idleTextures, 0.1f, true);
-
+            idleAnimation = new Animation("Idle", idleTextures, 0.1f, true, false);
+            
             // Running animation
             List<Texture> walkTextures = new List<Texture>();
 
             for (int i = 1; i < 5; i++)
             {
-                Texture frame = Engine.GetTexture($"Textures/BG/WalkAnim/{i}.png");
+               
+                frame = Engine.GetTexture($"Textures/BG/WalkAnim/{i}.png");
                 walkTextures.Add(frame);
             }
 
-            walkAnimation = new Animation("Walk", walkTextures, 0.1f, true);
+            walkAnimation = new Animation("Walk", walkTextures, 0.1f, true, false);
 
             // Kick Animation
             List<Texture> kickTextures = new List<Texture>();
 
             for (int i = 1; i < 6; i++)
             {
-                Texture frame = Engine.GetTexture($"Textures/BG/KickAnim/{i}.png");
+                frame = Engine.GetTexture($"Textures/BG/KickAnim/{i}.png");
                 kickTextures.Add(frame);
             }
 
-            kickAnimation = new Animation("Kick", kickTextures, 0.1f, true);
+            kickAnimation = new Animation("Kick", kickTextures, 0.1f, false, true);
 
             // Jab Animation
             List<Texture> jabTextures = new List<Texture>();
 
             for (int i = 1; i < 4; i++)
             {
-                Texture frame = Engine.GetTexture($"Textures/BG/JabAnim/{i}.png");
+                frame = Engine.GetTexture($"Textures/BG/JabAnim/{i}.png");
                 jabTextures.Add(frame);
             }
 
-            jabAnimation = new Animation("Jab", jabTextures, 0.1f, true);
+            jabAnimation = new Animation("Jab", jabTextures, 0.1f, false, true);
 
             // punch Animation
             List<Texture> punchTextures = new List<Texture>();
 
             for (int i = 1; i < 4; i++)
             {
-                Texture frame = Engine.GetTexture($"Textures/BG/PunchAnim/{i}.png");
+                frame = Engine.GetTexture($"Textures/BG/PunchAnim/{i}.png");
                 punchTextures.Add(frame);
             }
 
-            punchAnimation = new Animation("punch", punchTextures, 0.1f, true);
+            punchAnimation = new Animation("punch", punchTextures, 0.1f, false, true);
 
             // jump Animation
             List<Texture> jumpTextures = new List<Texture>();
 
             for (int i = 1; i < 5; i++)
-            {
-                Texture frame = Engine.GetTexture($"Textures/BG/JumpAnim/{i}.png");
+            {             
+                frame = Engine.GetTexture($"Textures/BG/JumpAnim/{i}.png");
                 jumpTextures.Add(frame);
             }
-
-            jumpAnimation = new Animation("jump", jumpTextures, 0.1f, true);
+         
+           jumpAnimation = new Animation("jump", jumpTextures, 0.5f, false, false);
 
         }
         public void Initialize() { }
@@ -186,60 +192,69 @@ namespace Game
         private void InputReading()
         {
             // Checks for the W key for movement
-            if (Engine.GetKey(Keys.W))
+            if (Engine.GetKey(Keys.W) && currentAnimation.interrupt == false)
             {
                 MoveUp();
                 currentAnimation = walkAnimation;
+           
             }
 
             // Checks for the S key for movement
-            if (Engine.GetKey(Keys.S))
+            else if (Engine.GetKey(Keys.S) && currentAnimation.interrupt == false)
             {
                 MoveDown();
                 currentAnimation = walkAnimation;
             }
 
             // Checks for the A key for movement
-            if (Engine.GetKey(Keys.A))
+            else if (Engine.GetKey(Keys.A) && currentAnimation.interrupt == false)
             {
                 MoveLeft();
                 currentAnimation = walkAnimation;
             }
 
             // Checks for the D key for movement
-            if (Engine.GetKey(Keys.D))
+            else if(Engine.GetKey(Keys.D) && currentAnimation.interrupt == false)
             {
                 MoveRight();
                 currentAnimation = walkAnimation;
+                
             }
 
             // Checks for the K key to kick
-            if (Engine.GetKey(Keys.K))
+            else if(Engine.GetKey(Keys.K) && currentAnimation.interrupt == false)
             {
                 Kick();
                 currentAnimation = kickAnimation;
             }
 
             // Checks for the J key to Jab
-            if (Engine.GetKey(Keys.J))
+            else if(Engine.GetKey(Keys.J) && currentAnimation.interrupt == false)
             {
                 Jab();
                 currentAnimation = jabAnimation;
             }
 
             // Checks for the H key to punch
-            if (Engine.GetKey(Keys.H))
+            else if(Engine.GetKey(Keys.H) && currentAnimation.interrupt == false)
             {
                 Punch();
                 currentAnimation = punchAnimation;
             }
 
             // Checks for the SPACE key to punch
-            if (Engine.GetKey(Keys.SPACE))
+            else if(Engine.GetKey(Keys.SPACE) && currentAnimation.interrupt == false)
             {
                 Jump();
                 currentAnimation = jumpAnimation;
             }
+            else if (currentAnimation.interrupt == false) 
+            {
+
+                currentAnimation = idleAnimation;
+                _renderer.ChangeAnimation(currentAnimation);
+            }
+       
         }
 
         // Moves the character up
@@ -293,6 +308,7 @@ namespace Game
             // _jab = false;
 
             currentAnimation = walkAnimation;
+            
             _renderer.ChangeAnimation(currentAnimation);
         }
 
@@ -304,6 +320,8 @@ namespace Game
             _punch = false;
 
             currentAnimation = kickAnimation;
+            currentAnimation.currentFrameIndex = 0;
+            currentAnimation.interrupt = true;
             _renderer.ChangeAnimation(currentAnimation);
         }
 
@@ -314,6 +332,8 @@ namespace Game
             _punch = false;
 
             currentAnimation = jabAnimation;
+            currentAnimation.currentFrameIndex = 0;
+            currentAnimation.interrupt = true;
             _renderer.ChangeAnimation(currentAnimation);
         }
 
@@ -324,6 +344,8 @@ namespace Game
             _punch = true;
 
             currentAnimation = punchAnimation;
+            currentAnimation.currentFrameIndex = 0;
+            currentAnimation.interrupt = true;
             _renderer.ChangeAnimation(currentAnimation);
         }
 

@@ -19,7 +19,7 @@ namespace Game
         private Character _player;
 
         //Movement values
-        private float _movementSpeed = 30;
+        private float _movementSpeed = 0;
         private float _rotationSpeed;
 
 
@@ -50,7 +50,7 @@ namespace Game
                 Texture frame = Engine.GetTexture($"Textures/Punk/IdleAnim/{i}.png");
                 idleTextures.Add(frame);
             }
-            idleAnimation = new Animation("Idle", idleTextures, 0.1f, true);
+            idleAnimation = new Animation("Idle", idleTextures, 0.1f, true, false);
 
         }
 
@@ -69,7 +69,7 @@ namespace Game
 
             if (GameManager.instance.CurrentState == GameState.Level)
             {
-                TrackPlayer();
+                //TrackPlayer();
             }
             
         }
@@ -110,7 +110,7 @@ namespace Game
 
             _transform.Translate(direction, _player._movementSpeed);
         }
-
+       
         public void Render()
         {
             _renderer.Render(_transform);
