@@ -25,7 +25,7 @@ namespace Game
             _time.Initialize();
 
             SoundPlayer musicPlayer = new SoundPlayer("Music/Music.wav");
-            musicPlayer.Play();
+            //musicPlayer.Play();
 
             _player = new Character("Textures/BG/IdleAnim/idle1.png", new Vector2(400, 850), new Vector2(4, 4), 0, 200);
 

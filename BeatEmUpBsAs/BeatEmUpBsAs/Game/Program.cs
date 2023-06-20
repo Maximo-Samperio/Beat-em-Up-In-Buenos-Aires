@@ -18,6 +18,23 @@ namespace Game
                 Render();    
                 
             }
+
+            //try
+            //{
+            //    string s = null;
+            //    ProcessString(s);
+            //}
+
+            ////More specific
+            //catch (ArgumentException e)
+            //{
+            //    Console.WriteLine("{0} First exception caught.", e);
+            //}
+
+            //catch (Exception e)
+            //{
+            //    Console.WriteLine("{0} Second exception caught.", e);
+            //}
         }
 
         private static void Initialization()
@@ -45,24 +62,5 @@ namespace Game
 	        }
         }
 
-       /* static void Main()
-        {
-            try
-            {
-                string s = null;
-                ProcessString(s);
-            }
-
-            //More specific
-            catch (ArgumentException e)
-            {
-                Console.WriteLine("{0} First exception caught.", e);
-            }
-
-            catch (Exception e)
-            {
-                Console.WriteLine("{0} Second exception caught.", e);
-            }
-        }*/
     }
 }
