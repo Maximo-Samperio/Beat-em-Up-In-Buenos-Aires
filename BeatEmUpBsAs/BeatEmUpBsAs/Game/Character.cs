@@ -30,10 +30,14 @@ namespace Game
         public bool _punch;
         public bool _jump;
         private bool _isMoving;
+        public bool isAttacking;
+
+        private float timer;
+        private bool hasTimeElapsed;
+        private static Time _time;
+        private static DateTime spawnTime;
+        private static DateTime currentTime;
         
-
-        private DateTime timeFromLastAttack;
-
         private Animation idleAnimation;
         private Animation walkAnimation;
         public Animation kickAnimation;
@@ -131,6 +135,8 @@ namespace Game
 
         public void Update()
         {
+            timer -= Time.DeltaTime;
+
             if (Engine.GetKey(Keys.SPACE) && !clickState)
             {
                 clickState = true;
@@ -144,6 +150,7 @@ namespace Game
 
             InputReading();
             currentAnimation.Update();
+
 
 
             // Checks if the character is colliding with the right margin so that it does not leave the screen
@@ -170,16 +177,6 @@ namespace Game
                 _transform.SetPositon(new Vector2(_transform.Position.X, 1000));
             }
         }
-
-        //public void AttackTimer()
-        //{
-        //    DateTime currentTime = DateTime.Now;
-        //    if ((currentTime - timeFromLastAttack). TotalSeconds >= timeBetweenShoots)
-        //    {
-        //        Kick();
-        //        timeFromLastAttack = currentTime;
-        //    }
-        //}
 
 
         // Renders the entire thing
@@ -319,6 +316,8 @@ namespace Game
             _jab = false;
             _punch = false;
 
+            SetTimer(1f);
+            isAttacking = true;
             currentAnimation = kickAnimation;
             currentAnimation.currentFrameIndex = 0;
             currentAnimation.interrupt = true;
@@ -331,6 +330,8 @@ namespace Game
             _jab = true;
             _punch = false;
 
+            SetTimer(1f);
+            isAttacking = true;
             currentAnimation = jabAnimation;
             currentAnimation.currentFrameIndex = 0;
             currentAnimation.interrupt = true;
@@ -343,6 +344,8 @@ namespace Game
             _jab = false;
             _punch = true;
 
+            SetTimer(1f);
+            isAttacking = true;
             currentAnimation = punchAnimation;
             currentAnimation.currentFrameIndex = 0;
             currentAnimation.interrupt = true;
@@ -359,7 +362,18 @@ namespace Game
             currentAnimation = jumpAnimation;
             _renderer.ChangeAnimation(currentAnimation);
         }
-
+        public void SetTimer(float timer)
+        {
+            this.timer = timer;
+        }
+        public void IsTimerComplete()
+        {
+            if (timer <= 0f)
+            {
+                isAttacking = false;
+            }
+            return;
+        }
         #endregion
     }
 }

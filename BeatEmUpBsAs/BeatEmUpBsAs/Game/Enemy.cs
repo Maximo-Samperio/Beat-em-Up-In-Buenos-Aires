@@ -20,13 +20,10 @@ namespace Game
         private Character _player;
         bool hasCollided = false;
 
-<<<<<<< HEAD
         //Movement values
         private float _movementSpeed = 30;
-=======
         // Movement values
-        private float _movementSpeed = 30;
->>>>>>> 8219a5c099c1a518d00cd33249f195f8805e4827
+
         private float _rotationSpeed;
 
         // Events
@@ -98,7 +95,7 @@ namespace Game
 
             if (distanceX <= sumHalfWidths && distanceY <= sumHalfHeights)
             {
-                if (_player._kick == true || _player._jab == true || _player._punch == true)
+                if (_player.isAttacking)
                 {
                     OnCollision();
                     //enemiesToDelete.Add(Enemy);
