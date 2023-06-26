@@ -8,9 +8,9 @@ namespace Game
 {
     public abstract class GameObject
     {
-        protected Transform _transform;
-        protected Renderer _renderer;
-        protected Animation currentAnimation;
+        public Transform _transform;
+        public  Renderer _renderer;
+        public Animation currentAnimation;
         public Transform Transform => _transform;
         public Renderer Renderer => _renderer;
 

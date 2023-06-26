@@ -16,6 +16,10 @@ namespace Game
         private Transform _playerTransform;
         private Character _player;
         bool hasCollided = false;
+        private bool killEnemy = false;
+
+        private Collider colliderController = new Collider();
+
 
         //Movement values
         private float _movementSpeed = 30;
@@ -66,32 +70,23 @@ namespace Game
                 _transform.SetPositon(new Vector2(-_renderer.Texture.Width, _transform.Position.Y));
 
             currentAnimation.Update();
-            //CheckCollision();
+
+            
 
             if (GameManager.instance.CurrentState == GameState.Level)
             {
+                CheckCollison();
                 //TrackPlayer();
             }
             
         }
-
-
-        public void CheckCollision()
+        public void CheckCollison()
         {
-
-            List<Enemy> enemiesToDelete = new List<Enemy>();
-
-            float distanceX = Math.Abs(_player.Transform.Position.X - _transform.Position.X);
-            float distanceY = Math.Abs(_player.Transform.Position.Y - _transform.Position.Y);
-
-            float sumHalfWidths = _player.Renderer.Texture.Width / 2 + _renderer.Texture.Width / 2;
-            float sumHalfHeights = _player.Renderer.Texture.Height / 2 + _renderer.Texture.Height / 2;
-
-            if (distanceX <= sumHalfWidths && distanceY <= sumHalfHeights)
+            if (colliderController.CheckCollision(_player, this))
             {
                 if (_player.isAttacking)
                 {
-                    OnCollisionWithAttack();
+                    DestroyEnemy();
                     //enemiesToDelete.Add(Enemy);
                     //GameManager.Instance.ChangeGameState(GameState.WinScreen);
                 }
@@ -100,13 +95,6 @@ namespace Game
                     GameManager.Instance.ChangeGameState(GameState.GameOverScreen);
                 }
             }
-        }
-        private void OnCollisionWithAttack()
-        {
-            DestroyEnemy();
-            // If no more enemies remaining:
-            //GameManager.Instance.ChangeGameState(GameState.WinScreen);
-            Debug.Write("Enemy dead");
         }
 
         public void TrackPlayer()
@@ -120,7 +108,7 @@ namespace Game
             _transform.Translate(direction, _player._movementSpeed);
         }
 
-        private void DestroyEnemy()
+        public void DestroyEnemy()
         {
             GameManager.Instance.LevelController.gameObjects.Remove(this);
             OnKill?.Invoke(this);
