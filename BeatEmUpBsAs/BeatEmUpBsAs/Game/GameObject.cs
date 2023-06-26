@@ -14,7 +14,7 @@ namespace Game
         public Transform Transform => _transform;
         public Renderer Renderer => _renderer;
 
-        public GameObject(Vector2 position, Vector2 scale, float angle, float movementSpeed)
+        public GameObject(Vector2 position, Vector2 scale, float angle)
         {
             _transform = new Transform(position, scale, angle);
             CreateAnimations();

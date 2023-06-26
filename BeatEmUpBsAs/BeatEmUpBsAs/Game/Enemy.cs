@@ -24,24 +24,20 @@ namespace Game
         private float _rotationSpeed;
 
         // Events
-        //public event Action <bool> OnColliison;
-        public delegate void KillEnemy(bool playerAttack);
-
         public event Action<Enemy> OnKill;
 
 
 
         #region PUBLIC_METODS
 
-        public Enemy(Vector2 position, Vector2 scale, float angle, float movementSpeed) : base(position, scale, angle, movementSpeed)
+        public Enemy(Vector2 position, Vector2 scale, float angle, float movementSpeed) : base(position, scale, angle)
         {
             _player = LevelController.Player;
             _transform = new Transform(position, scale, angle);
 
 
             //CreateAnimations();
-            currentAnimation = idleAnimation;
-            //_movementSpeed = movementSpeed;
+            _movementSpeed = movementSpeed;
             _rotationSpeed = 100f;
 
             _renderer = new Renderer(idleAnimation, scale);
@@ -57,12 +53,12 @@ namespace Game
                 idleTextures.Add(frame);
             }
             idleAnimation = new Animation("Idle", idleTextures, 0.1f, true, false);
-
+            currentAnimation = idleAnimation;
         }
 
         public void Initialize() { }
 
-        public void Update()
+        public override void Update()
         {
 
             _transform.Translate(new Vector2(1, 0), _movementSpeed);
@@ -96,7 +92,7 @@ namespace Game
             {
                 if (_player.isAttacking)
                 {
-                    OnCollision();
+                    OnCollisionWithAttack();
                     //enemiesToDelete.Add(Enemy);
                     //GameManager.Instance.ChangeGameState(GameState.WinScreen);
                 }
@@ -106,10 +102,11 @@ namespace Game
                 }
             }
         }
-        private void OnCollision()
+        private void OnCollisionWithAttack()
         {
-            //Delete Enemy
-            GameManager.Instance.ChangeGameState(GameState.WinScreen);
+            DestroyEnemy();
+            // If no more enemies remaining:
+            //GameManager.Instance.ChangeGameState(GameState.WinScreen);
             Debug.Write("Enemy dead");
         }
 
@@ -132,10 +129,10 @@ namespace Game
         }
 
 
-        public void Render()
-        {
-            _renderer.Render(_transform);
-        }
+        //public override void Render()
+        //{
+        //    _renderer.Render(_transform);
+        //}
 
 
         #endregion

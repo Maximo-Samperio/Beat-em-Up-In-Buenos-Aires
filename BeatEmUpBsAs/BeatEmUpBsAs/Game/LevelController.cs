@@ -11,10 +11,12 @@ namespace Game
     {
         private static Time _time;
 
+        public List<GameObject> gameObjects { get; set; } = new List<GameObject>();
+
+
         private static List<Character> characters = new List<Character>();
         private static List<Enemy> enemies = new List<Enemy>();
 
-        public List<GameObject> gameObjects { get; set; } = new List<GameObject>();
 
         private static Character _player;
         private static Enemy _enemy;
@@ -26,13 +28,11 @@ namespace Game
         {
             _time.Initialize();
 
+            _player = new Character("Textures/BG/IdleAnim/idle1.png", new Vector2(400, 850), new Vector2(4, 4), 0, 200);
+            gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(100, 100)));
+
             SoundPlayer musicPlayer = new SoundPlayer("Music/Music.wav");
             //musicPlayer.Play();
-
-            _player = new Character("Textures/BG/IdleAnim/idle1.png", new Vector2(400, 850), new Vector2(4, 4), 0, 200);
-
-            _enemy = new Enemy("Textures/Punk/IdleAnim/idle1.png", new Vector2(900, 850), new Vector2(4, 4), 0, 0);
-
         }
 
         public static void Update()
@@ -43,7 +43,11 @@ namespace Game
 
             _time.Update();
             _player.Update();
-            _enemy.Update();
+            //for (int i = 0; i < gameObjects.Count; i++)
+            //{
+            //    gameObjects[i].Update();
+            //}
+            //_enemy.Update();
         }
 
         public static void Render()
