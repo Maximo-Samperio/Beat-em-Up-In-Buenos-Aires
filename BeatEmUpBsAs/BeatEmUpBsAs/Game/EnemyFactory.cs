@@ -19,7 +19,7 @@ namespace Game
             switch (enemy)
             {
                 case EnemyType.Punk:
-                    return new Enemy(position, new Vector2(.75f, .75f), 0, 100);
+                    return new Enemy(position, new Vector2(3.5f, 3.5f), 0, 100);
             }
             return null;
         }

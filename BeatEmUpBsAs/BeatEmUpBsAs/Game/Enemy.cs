@@ -41,7 +41,6 @@ namespace Game
             _rotationSpeed = 100f;
 
             _renderer = new Renderer(idleAnimation, scale);
-
         }
 
         protected override void CreateAnimations()
@@ -67,11 +66,11 @@ namespace Game
                 _transform.SetPositon(new Vector2(-_renderer.Texture.Width, _transform.Position.Y));
 
             currentAnimation.Update();
-            CheckCollision();
+            //CheckCollision();
 
             if (GameManager.instance.CurrentState == GameState.Level)
             {
-                TrackPlayer();
+                //TrackPlayer();
             }
             
         }

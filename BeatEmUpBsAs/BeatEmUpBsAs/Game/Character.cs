@@ -9,15 +9,8 @@ using System.Threading.Tasks;
 
 namespace Game
 {
-    public class Character
+    public class Character : GameObject
     {
-
-        // Character Properties
-        private Transform _transform;       // Transform of the character
-        public Transform Transform => _transform;
-
-        private Renderer _renderer;         // Render of the character
-        public Renderer Renderer => _renderer;
         // Input Variables
         public static Action<bool> OnClick;
 
@@ -44,23 +37,23 @@ namespace Game
         public Animation jabAnimation;
         public Animation punchAnimation;
         public Animation jumpAnimation;
-        public Animation currentAnimation;
 
         #region PUBLIC_METODS
 
         // Character class, allows me toeasily create characters
-        public Character(string texturePath, Vector2 position, Vector2 scale, float angle, float movementSpeed)
+        public Character(Vector2 position, Vector2 scale, float angle, float movementSpeed) : base(position, scale, angle)
         {
             CreateAnimations();
-            currentAnimation = idleAnimation;
+
+            _transform = new Transform(position, scale, angle);         // Transform to transform
+                                                                        // 
+            _movementSpeed = movementSpeed;                             // Movement speed to movement speed
+
             _renderer = new Renderer(idleAnimation, scale);
 
-            //_renderer = new Renderer(texturePath, scale);               // Relates render to render
-            _transform = new Transform(position, scale, angle);         // Transform to transform              
-            _movementSpeed = movementSpeed;                             // Movement speed to movement speed
         }
 
-        private void CreateAnimations()                                 // Creates animations
+        protected override void CreateAnimations()                                 // Creates animations
         {
             Texture frame;
 
@@ -130,10 +123,12 @@ namespace Game
          
            jumpAnimation = new Animation("jump", jumpTextures, 0.5f, false, false);
 
+            currentAnimation = idleAnimation;
+
         }
         public void Initialize() { }
 
-        public void Update()
+        public override void Update()
         {
             timer -= Time.DeltaTime;
 
@@ -176,21 +171,21 @@ namespace Game
             {
                 _transform.SetPositon(new Vector2(_transform.Position.X, 1000));
             }
+
+
+
         }
-
-
-        // Renders the entire thing
-        public void Render() => _renderer.Render(_transform);
-
         #endregion
 
         #region PRIVATE_METHODS
 
-        private void InputReading()
+        protected void InputReading()
         {
+
             // Checks for the W key for movement
             if (Engine.GetKey(Keys.W) && currentAnimation.interrupt == false)
             {
+                //Engine.Debug("XXXXXXXX");
                 MoveUp();
                 currentAnimation = walkAnimation;
            

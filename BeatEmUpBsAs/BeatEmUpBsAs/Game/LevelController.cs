@@ -13,36 +13,30 @@ namespace Game
 
         public List<GameObject> gameObjects { get; set; } = new List<GameObject>();
 
-
-        private static List<Character> characters = new List<Character>();
-        private static List<Enemy> enemies = new List<Enemy>();
-
-
         private static Character _player;
         private static Enemy _enemy;
 
 
         public static Character Player => _player;
         public static Enemy Enemy => _enemy;
-        public static void Initialization()
+        public void Initialization()
         {
             _time.Initialize();
 
-            _player = new Character("Textures/BG/IdleAnim/idle1.png", new Vector2(400, 850), new Vector2(4, 4), 0, 200);
-            gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(100, 100)));
+            GameManager.instance.LevelController.gameObjects.Add(new Character(new Vector2(400, 850), new Vector2(4, 4), 0, 200));
+            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(100, 950)));
 
             SoundPlayer musicPlayer = new SoundPlayer("Music/Music.wav");
             //musicPlayer.Play();
         }
 
-        public static void Update()
+        public void Update()
         {
-            foreach (Enemy enemy in enemies) enemy.Update();
-            foreach (Character character in characters) character.Update();
-
 
             _time.Update();
-            _player.Update();
+            foreach (GameObject Object in gameObjects) Object.Update();
+
+
             //for (int i = 0; i < gameObjects.Count; i++)
             //{
             //    gameObjects[i].Update();
@@ -50,16 +44,15 @@ namespace Game
             //_enemy.Update();
         }
 
-        public static void Render()
+        public void Render()
         {
             Engine.Clear();
 
             Engine.Draw("Textures/Backgrounds/Current_Avenue_1.png", 0, 0, 1, 1, 0, 0, 0);
 
-            foreach (Enemy enemy in enemies) enemy.Render();
-            foreach (Character character in characters) character.Render();
-            _player.Render();
-            _enemy.Render();
+            //foreach (Enemy enemy in enemies) enemy.Render();
+            foreach (GameObject Object in gameObjects) Object.Render();
+            //foreach (Character character in characters) character.Render();
 
             Engine.Show();
         }
