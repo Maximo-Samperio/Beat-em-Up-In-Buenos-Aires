@@ -76,7 +76,7 @@ namespace Game
 
             if (GameManager.instance.CurrentState == GameState.Level)
             {
-                //TrackPlayer();
+                TrackPlayer();
             }
             
         }
