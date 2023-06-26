@@ -1,0 +1,16 @@
+C:\Users\Stetik\Desktop\FACULTAD\programacion\beat em up\BeatEmUpBsAs\BeatEmUpBsAs\UT2\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Stetik\Desktop\FACULTAD\programacion\beat em up\BeatEmUpBsAs\BeatEmUpBsAs\UT2\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Stetik\Desktop\FACULTAD\programacion\beat em up\BeatEmUpBsAs\BeatEmUpBsAs\UT2\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Stetik\Desktop\FACULTAD\programacion\beat em up\BeatEmUpBsAs\BeatEmUpBsAs\UT2\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\Stetik\Desktop\FACULTAD\programacion\beat em up\BeatEmUpBsAs\BeatEmUpBsAs\UT2\bin\Debug\Game.exe
+C:\Users\Stetik\Desktop\FACULTAD\programacion\beat em up\BeatEmUpBsAs\BeatEmUpBsAs\UT2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Stetik\Desktop\FACULTAD\programacion\beat em up\BeatEmUpBsAs\BeatEmUpBsAs\UT2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Stetik\Desktop\FACULTAD\programacion\beat em up\BeatEmUpBsAs\BeatEmUpBsAs\UT2\bin\Debug\Game.pdb
+C:\Users\Stetik\Desktop\FACULTAD\programacion\beat em up\BeatEmUpBsAs\BeatEmUpBsAs\UT2\bin\Debug\Game.exe.config
+C:\Users\Stetik\Desktop\FACULTAD\programacion\beat em up\BeatEmUpBsAs\BeatEmUpBsAs\UT2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Stetik\Desktop\FACULTAD\programacion\beat em up\BeatEmUpBsAs\BeatEmUpBsAs\UT2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Stetik\Desktop\FACULTAD\programacion\beat em up\BeatEmUpBsAs\BeatEmUpBsAs\UT2\obj\Debug\UT2.csproj.AssemblyReference.cache
+C:\Users\Stetik\Desktop\FACULTAD\programacion\beat em up\BeatEmUpBsAs\BeatEmUpBsAs\UT2\obj\Debug\UT2.csproj.CoreCompileInputs.cache
+C:\Users\Stetik\Desktop\FACULTAD\programacion\beat em up\BeatEmUpBsAs\BeatEmUpBsAs\UT2\obj\Debug\UT2.csproj.CopyComplete
+C:\Users\Stetik\Desktop\FACULTAD\programacion\beat em up\BeatEmUpBsAs\BeatEmUpBsAs\UT2\obj\Debug\UT2.dll
+C:\Users\Stetik\Desktop\FACULTAD\programacion\beat em up\BeatEmUpBsAs\BeatEmUpBsAs\UT2\obj\Debug\UT2.pdb
