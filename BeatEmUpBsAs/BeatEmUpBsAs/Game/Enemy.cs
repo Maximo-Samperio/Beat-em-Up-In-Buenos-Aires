@@ -33,7 +33,7 @@ namespace Game
 
         #region PUBLIC_METODS
 
-        public Enemy(Vector2 position, Vector2 scale, float angle) : base(position, scale, angle)
+        public Enemy(Vector2 position, Vector2 scale, float angle, float movementSpeed) : base(position, scale, angle, movementSpeed)
         {
             _player = LevelController.Player;
             _transform = new Transform(position, scale, angle);

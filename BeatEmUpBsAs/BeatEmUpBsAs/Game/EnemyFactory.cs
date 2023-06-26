@@ -18,7 +18,7 @@ namespace Game
     {
         public static Enemy CreateEnemy(EnemyType enemy, Vector2 position)
         {
-            new Enemy(position, new Vector2(.75f, .75f), 0, 100);
+            return new Enemy("Textures/Punk/IdleAnim/idle1.png", new Vector2(900, 850), new Vector2(4, 4), 0, 0);
         }
     }
 }
