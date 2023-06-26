@@ -10,6 +10,11 @@ namespace Game
     public class LevelController
     {
         private static Time _time;
+        private static DateTime spawnTime;
+        private static DateTime currentTime;
+        private static float TotalSeconds;
+        private float timer;
+
 
         public List<GameObject> gameObjects { get; set; } = new List<GameObject>();
 
@@ -32,6 +37,8 @@ namespace Game
 
         public void Update()
         {
+            SetTimer(5f);
+            timer -= Time.DeltaTime;
 
             _time.Update();
             foreach (GameObject Object in gameObjects) Object.Update();
@@ -56,5 +63,22 @@ namespace Game
 
             Engine.Show();
         }
+
+        public void SetTimer(float timer)
+        {
+            this.timer = timer;
+        }
+        public void IsTimerComplete()
+        {
+            if (timer <= 0f)
+            {
+                GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(100, 900)));
+                GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(100, 800)));
+                GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(100, 950)));
+                SetTimer(5f);
+            }
+            return;
+        }
+
     }
 }
