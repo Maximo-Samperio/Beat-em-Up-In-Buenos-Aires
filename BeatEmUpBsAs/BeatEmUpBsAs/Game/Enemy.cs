@@ -8,14 +8,11 @@ using System.Threading.Tasks;
 
 namespace Game
 {
-    public class Enemy
+    public class Enemy : GameObject
     {
 
         // Enemy properties
-        private Transform _transform;
-        private Renderer _renderer;
         private Animation idleAnimation;
-        private Animation currentAnimation;
         private Transform _playerTransform;
         private Character _player;
         bool hasCollided = false;
@@ -30,26 +27,28 @@ namespace Game
         //public event Action <bool> OnColliison;
         public delegate void KillEnemy(bool playerAttack);
 
+        public event Action<Enemy> OnKill;
+
 
 
         #region PUBLIC_METODS
 
-        public Enemy(string texturePath, Vector2 position, Vector2 scale, float angle, float movementSpeed)
+        public Enemy(Vector2 position, Vector2 scale, float angle) : base(position, scale, angle)
         {
             _player = LevelController.Player;
             _transform = new Transform(position, scale, angle);
 
 
-            CreateAnimations();
+            //CreateAnimations();
             currentAnimation = idleAnimation;
-            _movementSpeed = movementSpeed;
+            //_movementSpeed = movementSpeed;
             _rotationSpeed = 100f;
 
             _renderer = new Renderer(idleAnimation, scale);
 
         }
 
-        private void CreateAnimations()
+        protected override void CreateAnimations()
         {
             List<Texture> idleTextures = new List<Texture>();
             for (int i = 1; i < 5; i++)
@@ -124,7 +123,15 @@ namespace Game
 
             _transform.Translate(direction, _player._movementSpeed);
         }
-       
+
+        private void DestroyEnemy()
+        {
+            GameManager.Instance.LevelController.gameObjects.Remove(this);
+            OnKill?.Invoke(this);
+
+        }
+
+
         public void Render()
         {
             _renderer.Render(_transform);

@@ -14,6 +14,8 @@ namespace Game
         private static List<Character> characters = new List<Character>();
         private static List<Enemy> enemies = new List<Enemy>();
 
+        public List<GameObject> gameObjects { get; set; } = new List<GameObject>();
+
         private static Character _player;
         private static Enemy _enemy;
 
