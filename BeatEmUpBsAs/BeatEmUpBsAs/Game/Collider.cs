@@ -13,7 +13,16 @@ namespace Game
 
         public bool CheckCollision(GameObject object1, GameObject object2)
         {
+            if (object1 == null)
+            {
+                return false;
+            }
+
             bool answer = false;
+
+            Console.WriteLine("Objeto1: " + object1._transform == null);
+            Console.WriteLine("Objeto2: " + object2._transform == null);
+
 
             float distanceX = Math.Abs(object1._transform.Position.X - object2._transform.Position.X);
             float distanceY = Math.Abs(object1._transform.Position.Y - object2._transform.Position.Y);

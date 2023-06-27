@@ -258,10 +258,8 @@ namespace Game
         {
             _transform.Translate(new Vector2(0, -1), _movementSpeed);
 
-            _kick = false;
-            _jab = false;
-            _punch = false;
-           
+            isAttacking = false;
+
             currentAnimation = walkAnimation;
             _renderer.ChangeAnimation(currentAnimation);
         }
@@ -271,10 +269,7 @@ namespace Game
         {
             _transform.Translate(new Vector2(0, 1), _movementSpeed);
 
-            _kick = false;
-            _jab = false;
-            _punch = false;
-
+            isAttacking = false;
 
             currentAnimation = walkAnimation;
             _renderer.ChangeAnimation(currentAnimation);
@@ -285,10 +280,7 @@ namespace Game
         {
             _transform.Translate(new Vector2(-1, 0), _movementSpeed);
 
-            _kick = false;
-            _jab = false;
-            _punch = false;
-
+            isAttacking = false;
 
             currentAnimation = walkAnimation;
             _renderer.ChangeAnimation(currentAnimation);
@@ -299,9 +291,7 @@ namespace Game
         {
             _transform.Translate(new Vector2(1, 0), _movementSpeed);
 
-            // _punch = false;
-            //_kick = false;
-            // _jab = false;
+            isAttacking = false;
 
             currentAnimation = walkAnimation;
             

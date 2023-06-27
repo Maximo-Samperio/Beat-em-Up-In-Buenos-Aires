@@ -37,6 +37,7 @@ namespace Game
         public Enemy(Vector2 position, Vector2 scale, float angle, float movementSpeed) : base(position, scale, angle)
         {
             _player = LevelController.Player;
+
             _transform = new Transform(position, scale, angle);
 
 
@@ -66,8 +67,8 @@ namespace Game
 
             _transform.Translate(new Vector2(1, 0), _movementSpeed);
 
-            if (_transform.Position.X >= 1920 + _renderer.Texture.Width)
-                _transform.SetPositon(new Vector2(-_renderer.Texture.Width, _transform.Position.Y));
+            //if (_transform.Position.X >= 1920 + _renderer.Texture.Width)
+            //    _transform.SetPositon(new Vector2(-_renderer.Texture.Width, _transform.Position.Y));
 
             currentAnimation.Update();
 
@@ -76,7 +77,7 @@ namespace Game
             if (GameManager.instance.CurrentState == GameState.Level)
             {
                 CheckCollison();
-                //TrackPlayer();
+                TrackPlayer();
             }
             
         }

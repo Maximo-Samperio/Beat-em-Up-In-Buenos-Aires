@@ -60,6 +60,9 @@
     <Content Include="Music\Music.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Music\MusicTheme.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Textures\Backgrounds\Current_Avenue_1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

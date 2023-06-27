@@ -28,11 +28,19 @@ namespace Game
         {
             _time.Initialize();
 
-            GameManager.instance.LevelController.gameObjects.Add(new Character(new Vector2(400, 850), new Vector2(4, 4), 0, 200));
-            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(100, 950)));
+            _player = new Character(new Vector2(400, 850), new Vector2(4, 4), 0, 200);
+            GameManager.instance.LevelController.gameObjects.Add(_player);
+            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(1900, 900)));
+            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(1800, 950)));
+            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(1600, 850)));
+            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(1250, 800)));
+            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(800, 850)));
 
-            SoundPlayer musicPlayer = new SoundPlayer("Music/Music.wav");
-            //musicPlayer.Play();
+
+
+
+            SoundPlayer musicPlayer = new SoundPlayer("Music/MusicTheme.wav");
+            musicPlayer.Play();
         }
 
         public void Update()
@@ -41,14 +49,13 @@ namespace Game
             timer -= Time.DeltaTime;
 
             _time.Update();
-            foreach (GameObject Object in gameObjects) Object.Update();
+            //foreach (GameObject Object in gameObjects) Object.Update();
 
 
-            //for (int i = 0; i < gameObjects.Count; i++)
-            //{
-            //    gameObjects[i].Update();
-            //}
-            //_enemy.Update();
+            for (int i = 0; i < gameObjects.Count; i++)
+            {
+                gameObjects[i].Update();
+            }
         }
 
         public void Render()
