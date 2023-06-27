@@ -1,6 +1,9 @@
 ﻿using Game;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.CodeDom;
+using System.Collections.Specialized;
+using System.Net.Mime;
 
 namespace UnitTestProject1
 {
@@ -10,16 +13,25 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
-            int x = 3;
-            int y = 4;
+            int positionX = 10;
+            int positionY = 20;
+            int angle = 50;
+            int scaleX = 20;
+            int scaleY = 20;
 
-            var vector = new Vector2(x, y);
+            var vector = new Vector2(positionX, positionY);
 
-            var ExpectedResult = $"X : {x} / Y : {y}";
+            var expectedresult = $"Position - X : {positionX} / Y : {positionY}\n" +
+                                 $"Rotation - Angle : {angle}\n" +
+                                 $"Scale - X : {scaleX} / Y : {scaleY}";
 
-            var Result = vector.ToString();
+            var result = vector.ToString();
+            Assert.AreEqual(expectedresult, result);
 
-            Assert.AreEqual(ExpectedResult, Result);
+
+
+
+
         }
     }
 }
