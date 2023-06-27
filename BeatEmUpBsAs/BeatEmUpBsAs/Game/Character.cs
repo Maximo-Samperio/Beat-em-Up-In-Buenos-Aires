@@ -24,6 +24,9 @@ namespace Game
         public bool _jump;
         private bool _isMoving;
         public bool isAttacking;
+        private Enemy _enemy;
+        private Collider colliderController = new Collider();
+
 
         private float timer;
         private bool hasTimeElapsed;
@@ -45,6 +48,7 @@ namespace Game
         {
             CreateAnimations();
 
+            _enemy = LevelController.Enemy;
             _transform = new Transform(position, scale, angle);         // Transform to transform
                                                                         // 
             _movementSpeed = movementSpeed;                             // Movement speed to movement speed

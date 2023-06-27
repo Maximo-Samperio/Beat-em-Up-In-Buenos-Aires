@@ -15,11 +15,11 @@ namespace Game
         {
             bool answer = false;
 
-            float distanceX = Math.Abs(object1.Transform.Position.X - object2._transform.Position.X);
-            float distanceY = Math.Abs(object1.Transform.Position.Y - object2._transform.Position.Y);
+            float distanceX = Math.Abs(object1._transform.Position.X - object2._transform.Position.X);
+            float distanceY = Math.Abs(object1._transform.Position.Y - object2._transform.Position.Y);
 
-            float sumHalfWidths = object1.Renderer.Texture.Width / 2 + object2._renderer.Texture.Width / 2;
-            float sumHalfHeights = object1.Renderer.Texture.Height / 2 + object2._renderer.Texture.Height / 2;
+            float sumHalfWidths = object1._renderer.Texture.Width / 2 + object2._renderer.Texture.Width / 2;
+            float sumHalfHeights = object1._renderer.Texture.Height / 2 + object2._renderer.Texture.Height / 2;
 
             if (distanceX <= sumHalfWidths && distanceY <= sumHalfHeights)
             {               
