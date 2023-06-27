@@ -38,14 +38,14 @@ namespace Game
         {
             _player = LevelController.Player;
 
-            _transform = new Transform(position, scale, angle);
+            //_transform = new Transform(position, scale, angle);
 
 
             //CreateAnimations();
             _movementSpeed = movementSpeed;
             _rotationSpeed = 100f;
 
-            _renderer = new Renderer(idleAnimation, scale);
+           // _renderer = new Renderer(idleAnimation, scale);
         }
 
         protected override void CreateAnimations()

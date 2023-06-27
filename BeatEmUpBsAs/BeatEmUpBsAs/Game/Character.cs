@@ -46,14 +46,14 @@ namespace Game
         // Character class, allows me toeasily create characters
         public Character(Vector2 position, Vector2 scale, float angle, float movementSpeed) : base(position, scale, angle)
         {
-            CreateAnimations();
+            //CreateAnimations();
 
             _enemy = LevelController.Enemy;
-            _transform = new Transform(position, scale, angle);         // Transform to transform
+            //_transform = new Transform(position, scale, angle);         // Transform to transform
                                                                         // 
             _movementSpeed = movementSpeed;                             // Movement speed to movement speed
 
-            _renderer = new Renderer(idleAnimation, scale);
+            //_renderer = new Renderer(idleAnimation, scale);
 
         }
 
