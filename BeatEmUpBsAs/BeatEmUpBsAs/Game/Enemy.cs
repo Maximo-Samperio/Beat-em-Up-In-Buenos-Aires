@@ -15,6 +15,7 @@ namespace Game
         private Animation idleAnimation;
         private Transform _playerTransform;
         private Character _player;
+        public int killedEnemies = 0;
         bool hasCollided = false;
         private bool killEnemy = false;
 
@@ -88,6 +89,7 @@ namespace Game
                 if (_player.isAttacking)
                 {
                     DestroyEnemy();
+                    killedEnemies++;
                     //enemiesToDelete.Add(Enemy);
                     //GameManager.Instance.ChangeGameState(GameState.WinScreen);
                 }
