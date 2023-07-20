@@ -31,6 +31,10 @@ namespace Game
         public void Initialization()
         {
             _time.Initialize();
+            GameManager.Instance.wave1 = true;
+            GameManager.Instance.wave2 = false;
+            GameManager.Instance.wave3 = false;
+
 
             _player = new Character(new Vector2(400, 850), new Vector2(4, 4), 0, 200);
             GameManager.instance.LevelController.gameObjects.Add(_player);
@@ -62,11 +66,16 @@ namespace Game
             if (killedEnemies == 5)
             {
                 SpawnWave();
+                GameManager.Instance.wave1 = false;
+                GameManager.Instance.wave2 = true;
+
             }
 
             if (killedEnemies == 10)
             {
                 SpawnWave();
+                GameManager.Instance.wave2 = false;
+                GameManager.Instance.wave3 = true;
             }
         }
 
