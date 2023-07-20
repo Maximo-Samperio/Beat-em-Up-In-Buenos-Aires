@@ -38,8 +38,6 @@ namespace Game
             GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(800, 850)));
 
 
-
-
             SoundPlayer musicPlayer = new SoundPlayer("Music/MusicTheme.wav");
             musicPlayer.Play();
         }
@@ -98,7 +96,7 @@ namespace Game
             return;
         }
 
-        //private static Vector2 RandomVector2() => new Vector2(_random.Next(0, 1900), _random.Next(800, 1000));
+        private Vector2 RandomVector2() => new Vector2(_random.Next(0, 1900), _random.Next(800, 1000));
 
 
 
@@ -106,13 +104,11 @@ namespace Game
 
         public void SpawnWave()
         {
-            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(1900, 900)));
-            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(1800, 950)));
-            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(1600, 850)));
-            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(1250, 800)));
-            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(800, 850)));
-
-            // GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, RandomVector2()));
+            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, RandomVector2()));
+            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, RandomVector2()));
+            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, RandomVector2()));
+            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, RandomVector2()));
+            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, RandomVector2()));
 
         }
 
