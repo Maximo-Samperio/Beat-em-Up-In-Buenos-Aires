@@ -13,11 +13,14 @@ namespace Game
         private static DateTime spawnTime;
         private static DateTime currentTime;
         private static float TotalSeconds;
+        public int killedEnemies = 0;
         private float timer;
         Random _random = new Random();
 
 
         public List<GameObject> gameObjects { get; set; } = new List<GameObject>();
+        private Vector2 RandomVector2() => new Vector2(_random.Next(0, 1900), _random.Next(800, 1000));
+
 
         private static Character _player;
         private static Enemy _enemy;
@@ -56,12 +59,12 @@ namespace Game
                 gameObjects[i].Update();
             }
 
-            if (Enemy.killedEnemies == 5)
+            if (killedEnemies == 5)
             {
                 SpawnWave();
             }
 
-            if (Enemy.killedEnemies == 10)
+            if (killedEnemies == 10)
             {
                 SpawnWave();
             }
@@ -96,20 +99,17 @@ namespace Game
             return;
         }
 
-        private Vector2 RandomVector2() => new Vector2(_random.Next(0, 1900), _random.Next(800, 1000));
 
-
-
-
+        public void SumKilledEnemies()
+        {
+            killedEnemies += 1;
+        }
 
         public void SpawnWave()
         {
             GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, RandomVector2()));
             GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, RandomVector2()));
             GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, RandomVector2()));
-            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, RandomVector2()));
-            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, RandomVector2()));
-
         }
 
     }

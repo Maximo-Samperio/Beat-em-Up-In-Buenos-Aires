@@ -15,7 +15,7 @@ namespace Game
         private Animation idleAnimation;
         private Transform _playerTransform;
         private Character _player;
-        public int killedEnemies = 0;
+        public LevelController LevelController;
         bool hasCollided = false;
         private bool killEnemy = false;
 
@@ -89,7 +89,6 @@ namespace Game
                 if (_player.isAttacking)
                 {
                     DestroyEnemy();
-                    killedEnemies++;
                     //enemiesToDelete.Add(Enemy);
                     //GameManager.Instance.ChangeGameState(GameState.WinScreen);
                 }
@@ -114,6 +113,7 @@ namespace Game
         public void DestroyEnemy()
         {
             GameManager.Instance.LevelController.gameObjects.Remove(this);
+            GameManager.Instance.LevelController.SumKilledEnemies();
             OnKill?.Invoke(this);
 
         }
