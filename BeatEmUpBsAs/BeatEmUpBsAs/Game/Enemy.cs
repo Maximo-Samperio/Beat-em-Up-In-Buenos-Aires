@@ -15,6 +15,7 @@ namespace Game
         private Animation idleAnimation;
         private Transform _playerTransform;
         private Character _player;
+        public LevelController LevelController;
         bool hasCollided = false;
         private bool killEnemy = false;
 
@@ -112,6 +113,7 @@ namespace Game
         public void DestroyEnemy()
         {
             GameManager.Instance.LevelController.gameObjects.Remove(this);
+            GameManager.Instance.LevelController.SumKilledEnemies();
             OnKill?.Invoke(this);
 
         }

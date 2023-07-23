@@ -13,10 +13,14 @@ namespace Game
         private static DateTime spawnTime;
         private static DateTime currentTime;
         private static float TotalSeconds;
+        public int killedEnemies = 0;
         private float timer;
+        Random _random = new Random();
 
 
         public List<GameObject> gameObjects { get; set; } = new List<GameObject>();
+        private Vector2 RandomVector2() => new Vector2(_random.Next(0, 1900), _random.Next(800, 1000));
+
 
         private static Character _player;
         private static Enemy _enemy;
@@ -27,6 +31,10 @@ namespace Game
         public void Initialization()
         {
             _time.Initialize();
+            GameManager.Instance.wave1 = true;
+            GameManager.Instance.wave2 = false;
+            GameManager.Instance.wave3 = false;
+
 
             _player = new Character(new Vector2(400, 850), new Vector2(4, 4), 0, 200);
             GameManager.instance.LevelController.gameObjects.Add(_player);
@@ -35,8 +43,6 @@ namespace Game
             GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(1600, 850)));
             GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(1250, 800)));
             GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(800, 850)));
-
-
 
 
             SoundPlayer musicPlayer = new SoundPlayer("Music/MusicTheme.wav");
@@ -55,6 +61,21 @@ namespace Game
             for (int i = 0; i < gameObjects.Count; i++)
             {
                 gameObjects[i].Update();
+            }
+
+            if (killedEnemies == 5)
+            {
+                SpawnWave();
+                GameManager.Instance.wave1 = false;
+                GameManager.Instance.wave2 = true;
+
+            }
+
+            if (killedEnemies == 10)
+            {
+                SpawnWave();
+                GameManager.Instance.wave2 = false;
+                GameManager.Instance.wave3 = true;
             }
         }
 
@@ -85,6 +106,19 @@ namespace Game
                 SetTimer(5f);
             }
             return;
+        }
+
+
+        public void SumKilledEnemies()
+        {
+            killedEnemies += 1;
+        }
+
+        public void SpawnWave()
+        {
+            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, RandomVector2()));
+            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, RandomVector2()));
+            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, RandomVector2()));
         }
 
     }
