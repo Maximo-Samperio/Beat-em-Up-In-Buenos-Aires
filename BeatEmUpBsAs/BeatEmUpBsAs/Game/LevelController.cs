@@ -19,7 +19,9 @@ namespace Game
 
 
         public List<GameObject> gameObjects { get; set; } = new List<GameObject>();
-        private Vector2 RandomVector2() => new Vector2(_random.Next(0, 1900), _random.Next(800, 1000));
+        private Vector2 RandomVector2() => new Vector2(_random.Next(1200, 1900), _random.Next(800, 1000));
+        private Vector2 RandomVector2Left() => new Vector2(_random.Next(0, 300), _random.Next(800, 1000));
+
 
 
         private static Character _player;
@@ -50,12 +52,12 @@ namespace Game
 
 
             SoundPlayer musicPlayer = new SoundPlayer("Music/MusicTheme.wav");
-            musicPlayer.Play();
+            //musicPlayer.Play();
         }
 
         public void Update()
         {
-            SetTimer(5f);
+            //SetTimer(5f);
             timer -= Time.DeltaTime;
 
             _time.Update();
@@ -67,7 +69,7 @@ namespace Game
                 gameObjects[i].Update();
             }
 
-            if (killedEnemies == 5)
+            if (killedEnemies == 5 && GameManager.Instance.wave1 == true)
             {
                 SpawnWave();
                 GameManager.Instance.wave1 = false;
@@ -75,11 +77,17 @@ namespace Game
 
             }
 
-            if (killedEnemies == 10)
+            if (killedEnemies == 10 && GameManager.Instance.wave2 == true)
             {
                 SpawnWave();
                 GameManager.Instance.wave2 = false;
                 GameManager.Instance.wave3 = true;
+            }
+
+            if(killedEnemies == 15)
+            {
+                GameManager.Instance.wave3 = false;
+                GameManager.Instance.ChangeGameState(GameState.WinScreen);
             }
         }
 
@@ -96,21 +104,22 @@ namespace Game
             Engine.Show();
         }
 
-        public void SetTimer(float timer)
-        {
-            this.timer = timer;
-        }
-        public void IsTimerComplete()
-        {
-            if (timer <= 0f)
-            {
-                GameManager.instance.LevelController.gameObjects.Add(factory.CreateEnemy(EnemyType.Punk, new Vector2(100, 900)));
-                GameManager.instance.LevelController.gameObjects.Add(factory.CreateEnemy(EnemyType.Punk, new Vector2(100, 800)));
-                GameManager.instance.LevelController.gameObjects.Add(factory.CreateEnemy(EnemyType.Punk, new Vector2(100, 950)));
-                SetTimer(5f);
-            }
-            return;
-        }
+        //public void SetTimer(float timer)
+        //{
+        //    this.timer = timer;
+        //}
+
+        //public void IsTimerComplete()
+        //{
+        //    if (timer <= 0f)
+        //    {
+        //        GameManager.instance.LevelController.gameObjects.Add(factory.CreateEnemy(EnemyType.Punk, new Vector2(100, 900)));
+        //        GameManager.instance.LevelController.gameObjects.Add(factory.CreateEnemy(EnemyType.Punk, new Vector2(100, 800)));
+        //        GameManager.instance.LevelController.gameObjects.Add(factory.CreateEnemy(EnemyType.Punk, new Vector2(100, 950)));
+        //        SetTimer(5f);
+        //    }
+        //    return;
+        //}
 
 
         public void SumKilledEnemies()
@@ -120,10 +129,10 @@ namespace Game
 
         public void SpawnWave()
         {
-            GameManager.instance.LevelController.gameObjects.Add(factory.CreateEnemy(EnemyType.Punk, RandomVector2()));
-            GameManager.instance.LevelController.gameObjects.Add(factory.CreateEnemy(EnemyType.Punk, RandomVector2()));
-            GameManager.instance.LevelController.gameObjects.Add(factory.CreateEnemy(EnemyType.Punk, RandomVector2()));
+            for (int i = 0; i < 5; i++)
+            {
+                GameManager.instance.LevelController.gameObjects.Add(factory.CreateEnemy(EnemyType.Punk, RandomVector2()));         
+            }
         }
-
     }
 }

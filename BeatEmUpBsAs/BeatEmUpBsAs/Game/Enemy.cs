@@ -119,8 +119,19 @@ namespace Game
                 }
                 else
                 {
-                    Game.Engine.Debug("hola\n");
-                    GameManager.Instance.ChangeGameState(GameState.GameOverScreen);
+                    Game.Engine.Debug("Player Killed\n");
+                    if (GameManager.Instance.wave1 == true)
+                    {
+                        GameManager.Instance.ChangeGameState(GameState.GameOverScreen);
+                    }
+                    if (GameManager.Instance.wave2 == true)
+                    {
+                        GameManager.Instance.ChangeGameState(GameState.GameOverScreen2);
+                    }
+                    if (GameManager.Instance.wave3 == true)
+                    {
+                        GameManager.Instance.ChangeGameState(GameState.GameOverScreen3);
+                    }
                 }
             }
         }

@@ -31,6 +31,9 @@ namespace Game
 
         public StaticScreen GameOverScreen = new StaticScreen("Textures/Screens/GameOver.png");
         // Aca añadi el path de las game over screens 2 y 3 y reemplaza el de arriba que es la vieja
+        public StaticScreen GameOverScreen2 = new StaticScreen("Textures/Screens/GameOver2.png");
+        public StaticScreen GameOverScreen3 = new StaticScreen("Textures/Screens/GameOver3.png");
+
 
         public StaticScreen WinScreen = new StaticScreen("Textures/Screens/Win.png");
         public StaticScreen CreditsScreen = new StaticScreen("Textures/Screens/Credits.png");
