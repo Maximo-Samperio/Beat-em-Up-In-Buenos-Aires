@@ -49,22 +49,6 @@ namespace Game
             _renderer = new Renderer(idleAnimation, scale);
         }
 
-<<<<<<< Updated upstream
-=======
-        public Enemy()
-        {
-            _player = LevelController.Player;
-
-            _transform = new Transform (new Vector2(0,0), new Vector2(0, 0), 0);
-
-
-            CreateAnimations();
-            _movementSpeed = 0f;
-            _rotationSpeed = 100f;
-
-            _renderer = new Renderer(idleAnimation, new Vector2(1, 1));
-        }
->>>>>>> Stashed changes
         protected override void CreateAnimations()
         {
             List<Texture> idleTextures = new List<Texture>();
@@ -77,18 +61,7 @@ namespace Game
             currentAnimation = idleAnimation;
         }
 
-<<<<<<< Updated upstream
         public void Initialize() { }
-=======
-        public void Initialize(Vector2 position, Vector2 size, int angle, int speed)
-        {
-            _transform.SetPositon(position);
-            _transform.SetScale(size);
-            _movementSpeed = speed;
-            _transform.SetAngle(angle);
-            _renderer = new Renderer(idleAnimation, size);
-        }
->>>>>>> Stashed changes
 
         public override void Update()
         {
