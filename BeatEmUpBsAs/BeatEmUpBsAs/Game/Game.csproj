@@ -45,7 +45,10 @@
     <Compile Include="Enemy.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="GameObject.cs" />
+    <Compile Include="GenericEnemyFactory.cs" />
+    <Compile Include="GenericPool.cs" />
     <Compile Include="LevelController.cs" />
+    <Compile Include="NotDynamicEnemyPool.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Renderer.cs" />
     <Compile Include="StaticScreen.cs" />

@@ -35,7 +35,7 @@ namespace Game
 
         #region PUBLIC_METODS
 
-        public Enemy(Vector2 position, Vector2 scale, float angle, float movementSpeed) : base(position, scale, angle)
+        /*public Enemy(Vector2 position, Vector2 scale, float angle, float movementSpeed) : base(position, scale, angle)
         {
             _player = LevelController.Player;
 
@@ -48,7 +48,22 @@ namespace Game
 
             _renderer = new Renderer(idleAnimation, scale);
         }
+        */
 
+        public Enemy()
+        {
+            Game.Engine.Debug("abscqsdasddfkdkd");
+            _player = LevelController.Player;
+
+            _transform = new Transform (new Vector2(0,0), new Vector2(0, 0), 0);
+
+
+            CreateAnimations();
+            _movementSpeed = 0f;
+            _rotationSpeed = 100f;
+
+            _renderer = new Renderer(idleAnimation, new Vector2(1, 1));
+        }
         protected override void CreateAnimations()
         {
             List<Texture> idleTextures = new List<Texture>();
@@ -61,7 +76,14 @@ namespace Game
             currentAnimation = idleAnimation;
         }
 
-        public void Initialize() { }
+        public void Initialize(Vector2 position, Vector2 size, int angle, int speed) 
+        {
+            _transform.SetPositon(position);
+            _transform.SetScale(size);
+            _movementSpeed = speed;
+            _transform.SetAngle(angle);
+            _renderer = new Renderer(idleAnimation, size);
+        }
 
         public override void Update()
         {
@@ -84,8 +106,11 @@ namespace Game
         }
         public void CheckCollison()
         {
+            
+
             if (colliderController.CheckCollision(_player, this))
             {
+                Game.Engine.Debug("Estado: "+ _player.isAttacking+"\n");
                 if (_player.isAttacking)
                 {
                     DestroyEnemy();
@@ -94,6 +119,7 @@ namespace Game
                 }
                 else
                 {
+                    Game.Engine.Debug("hola\n");
                     GameManager.Instance.ChangeGameState(GameState.GameOverScreen);
                 }
             }
@@ -112,6 +138,7 @@ namespace Game
 
         public void DestroyEnemy()
         {
+            Game.Engine.Debug("Destroy\n");
             GameManager.Instance.LevelController.gameObjects.Remove(this);
             GameManager.Instance.LevelController.SumKilledEnemies();
             OnKill?.Invoke(this);
