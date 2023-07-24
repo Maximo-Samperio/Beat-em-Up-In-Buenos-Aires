@@ -8,31 +8,26 @@ using System.Threading.Tasks;
 
 namespace Game
 {
-  
-    public enum EnemyType
-    {
-        Punk = 0,
-    }
 
-    public class EnemyFactory
+    public class GenericEnemyFactory
     {
-        public EnemyFactory()
+        public GenericEnemyFactory()
         {
-            pool = new NotDynamicEnemyPool(10);
+            pool = new GenericPool<Enemy>();
         }
 
-        private NotDynamicEnemyPool pool;
-        
+        private GenericPool<Enemy> pool;
+
         public Enemy CreateEnemy(EnemyType enemy, Vector2 position)
         {
             switch (enemy)
             {
                 case EnemyType.Punk:
-                    Enemy enemy1 = pool.getEnemy();
+                    Enemy enemy1 = pool.Get();
                     enemy1.Initialize(position, new Vector2(3.5f, 3.5f), 0, 100);
                     return enemy1;
 
-                        //return new Enemy(position, new Vector2(3.5f, 3.5f), 0, 100);  
+                    //return new Enemy(position, new Vector2(3.5f, 3.5f), 0, 100);  
             }
             return null;
         }

@@ -28,6 +28,8 @@ namespace Game
 
         public static Character Player => _player;
         public static Enemy Enemy => _enemy;
+
+        private GenericEnemyFactory factory;
         public void Initialization()
         {
             _time.Initialize();
@@ -36,13 +38,15 @@ namespace Game
             GameManager.Instance.wave3 = false;
 
 
+            factory = new GenericEnemyFactory();
+
             _player = new Character(new Vector2(400, 850), new Vector2(4, 4), 0, 200);
             GameManager.instance.LevelController.gameObjects.Add(_player);
-            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(1900, 900)));
-            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(1800, 950)));
-            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(1600, 850)));
-            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(1250, 800)));
-            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(800, 850)));
+            GameManager.instance.LevelController.gameObjects.Add(factory.CreateEnemy(EnemyType.Punk, new Vector2(1900, 900)));
+            GameManager.instance.LevelController.gameObjects.Add(factory.CreateEnemy(EnemyType.Punk, new Vector2(1800, 950)));
+            GameManager.instance.LevelController.gameObjects.Add(factory.CreateEnemy(EnemyType.Punk, new Vector2(1600, 850)));
+            GameManager.instance.LevelController.gameObjects.Add(factory.CreateEnemy(EnemyType.Punk, new Vector2(1250, 800)));
+            GameManager.instance.LevelController.gameObjects.Add(factory.CreateEnemy(EnemyType.Punk, new Vector2(800, 850)));
 
 
             SoundPlayer musicPlayer = new SoundPlayer("Music/MusicTheme.wav");
@@ -100,9 +104,9 @@ namespace Game
         {
             if (timer <= 0f)
             {
-                GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(100, 900)));
-                GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(100, 800)));
-                GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, new Vector2(100, 950)));
+                GameManager.instance.LevelController.gameObjects.Add(factory.CreateEnemy(EnemyType.Punk, new Vector2(100, 900)));
+                GameManager.instance.LevelController.gameObjects.Add(factory.CreateEnemy(EnemyType.Punk, new Vector2(100, 800)));
+                GameManager.instance.LevelController.gameObjects.Add(factory.CreateEnemy(EnemyType.Punk, new Vector2(100, 950)));
                 SetTimer(5f);
             }
             return;
@@ -116,9 +120,9 @@ namespace Game
 
         public void SpawnWave()
         {
-            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, RandomVector2()));
-            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, RandomVector2()));
-            GameManager.instance.LevelController.gameObjects.Add(EnemyFactory.CreateEnemy(EnemyType.Punk, RandomVector2()));
+            GameManager.instance.LevelController.gameObjects.Add(factory.CreateEnemy(EnemyType.Punk, RandomVector2()));
+            GameManager.instance.LevelController.gameObjects.Add(factory.CreateEnemy(EnemyType.Punk, RandomVector2()));
+            GameManager.instance.LevelController.gameObjects.Add(factory.CreateEnemy(EnemyType.Punk, RandomVector2()));
         }
 
     }
