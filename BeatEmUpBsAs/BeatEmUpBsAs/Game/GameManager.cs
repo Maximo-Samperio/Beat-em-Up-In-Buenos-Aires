@@ -90,7 +90,12 @@ namespace Game
                 {
                     ChangeGameState(GameState.MainMenu);
                 }
-            }           
+            }  
+            
+            if (Engine.GetKey(Keys.ESCAPE))
+            {
+                Environment.Exit(0);
+            }
         }
 
         public void Render()
