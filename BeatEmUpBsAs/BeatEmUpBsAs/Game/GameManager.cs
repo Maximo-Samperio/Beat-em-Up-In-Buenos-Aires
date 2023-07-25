@@ -29,13 +29,13 @@ namespace Game
         public const string CREDITS_PATH = "Textures/Screens/Credits.png";
         public const string MAINMENU_PATH = "Textures/Screens/MainMenu.png";
 
-        public StaticScreen GameOverScreen = new StaticScreen("Textures/Screens/GameOver.png");
+        public StaticScreen GameOverScreen = new StaticScreen("Textures/Screens/LoseWave1.png");
         // Aca añadi el path de las game over screens 2 y 3 y reemplaza el de arriba que es la vieja
-        public StaticScreen GameOverScreen2 = new StaticScreen("Textures/Screens/GameOver2.png");
-        public StaticScreen GameOverScreen3 = new StaticScreen("Textures/Screens/GameOver3.png");
+        public StaticScreen GameOverScreen2 = new StaticScreen("Textures/Screens/LoseWave2.png");
+        public StaticScreen GameOverScreen3 = new StaticScreen("Textures/Screens/LoseWave3.png");
 
 
-        public StaticScreen WinScreen = new StaticScreen("Textures/Screens/Win.png");
+        public StaticScreen WinScreen = new StaticScreen("Textures/Screens/WinScreen.png");
         public StaticScreen CreditsScreen = new StaticScreen("Textures/Screens/Credits.png");
         public StaticScreen MainScreen = new StaticScreen("Textures/Screens/MainMenu.png");
 
