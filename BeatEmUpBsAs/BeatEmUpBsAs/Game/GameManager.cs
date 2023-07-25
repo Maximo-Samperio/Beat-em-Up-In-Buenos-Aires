@@ -30,7 +30,6 @@ namespace Game
         public const string MAINMENU_PATH = "Textures/Screens/MainMenu.png";
 
         public StaticScreen GameOverScreen = new StaticScreen("Textures/Screens/LoseWave1.png");
-        // Aca añadi el path de las game over screens 2 y 3 y reemplaza el de arriba que es la vieja
         public StaticScreen GameOverScreen2 = new StaticScreen("Textures/Screens/LoseWave2.png");
         public StaticScreen GameOverScreen3 = new StaticScreen("Textures/Screens/LoseWave3.png");
 
@@ -112,11 +111,11 @@ namespace Game
                     break;
 
                 case GameState.GameOverScreen2:
-                    GameOverScreen.Render();
+                    GameOverScreen2.Render();
                     break;
 
                 case GameState.GameOverScreen3:
-                    GameOverScreen.Render();
+                    GameOverScreen3.Render();
                     break;
 
                 case GameState.WinScreen:

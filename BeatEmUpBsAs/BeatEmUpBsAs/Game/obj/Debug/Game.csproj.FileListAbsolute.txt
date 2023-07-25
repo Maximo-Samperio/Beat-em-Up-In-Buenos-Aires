@@ -199,3 +199,7 @@ C:\Users\Stetik\Desktop\FACULTAD\programacion\beat em up\BeatEmUpBsAs\BeatEmUpBs
 C:\Users\Stetik\Desktop\FACULTAD\programacion\beat em up\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Screens\LoseWave2.png
 C:\Users\Stetik\Desktop\FACULTAD\programacion\beat em up\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Screens\LoseWave3.png
 C:\Users\Stetik\Desktop\FACULTAD\programacion\beat em up\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Screens\WinScreen.png
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Screens\LoseWave1.png
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Screens\LoseWave2.png
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Screens\LoseWave3.png
+C:\Users\maxim\OneDrive\Documents\AA - UADE Game Dev\AA-Projects\Beat 'em Up In Buenos Aires\Beat-em-Up-In-Buenos-Aires\BeatEmUpBsAs\BeatEmUpBsAs\Game\bin\Debug\Textures\Screens\WinScreen.png

@@ -124,11 +124,11 @@ namespace Game
                     {
                         GameManager.Instance.ChangeGameState(GameState.GameOverScreen);
                     }
-                    if (GameManager.Instance.wave2 == true)
+                    else if (GameManager.Instance.wave2 == true)
                     {
                         GameManager.Instance.ChangeGameState(GameState.GameOverScreen2);
                     }
-                    if (GameManager.Instance.wave3 == true)
+                    else if (GameManager.Instance.wave3 == true)
                     {
                         GameManager.Instance.ChangeGameState(GameState.GameOverScreen3);
                     }

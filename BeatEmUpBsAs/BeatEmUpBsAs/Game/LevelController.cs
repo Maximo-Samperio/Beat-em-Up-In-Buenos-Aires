@@ -82,6 +82,12 @@ namespace Game
                 SpawnWave();
                 GameManager.Instance.wave2 = false;
                 GameManager.Instance.wave3 = true;
+
+                if (GameManager.Instance.wave3 == true)
+                {
+                    Game.Engine.Debug("Wave 3\n");
+                }
+                
             }
 
             if(killedEnemies == 15)
