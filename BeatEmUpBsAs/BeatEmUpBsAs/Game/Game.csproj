@@ -45,7 +45,10 @@
     <Compile Include="Enemy.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="GameObject.cs" />
+    <Compile Include="GenericEnemyFactory.cs" />
+    <Compile Include="GenericPool.cs" />
     <Compile Include="LevelController.cs" />
+    <Compile Include="NotDynamicEnemyPool.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Renderer.cs" />
     <Compile Include="StaticScreen.cs" />
@@ -219,10 +222,22 @@
     <Content Include="Textures\Screens\GameOver.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Textures\Screens\LoseWave1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Screens\LoseWave2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Screens\LoseWave3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Textures\Screens\MainMenu.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Textures\Screens\Win.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Screens\WinScreen.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
