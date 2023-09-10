@@ -13,8 +13,6 @@ namespace Game
 
         public bool CheckCollision(GameObject object1, GameObject object2)
         {
-            Game.Engine.Debug("player: "+ object1.ToString()+" enemy:"+object2.ToString()+"\n");
-
             if (object1 == null)
             {
                 return false;

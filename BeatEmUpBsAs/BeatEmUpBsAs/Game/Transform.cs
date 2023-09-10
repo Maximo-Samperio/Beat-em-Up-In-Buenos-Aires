@@ -24,8 +24,7 @@ namespace Game
         }
 
         public void SetPositon(Vector2 position) => _position = position;
-        public void SetScale(Vector2 scale) => _scale = scale;
-        public void SetAngle(float angle) => _angle = angle;
+
         public void Rotate(float direction, float speed) => _angle += direction * speed * Time.DeltaTime;
 
         public void Translate(Vector2 direction, float speed = 0f)
